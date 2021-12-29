@@ -1,10 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 $primary: #4ab493;
-$secondary: #f6f6f6;
+$primaryDark: #248271;
+$whiteText: #f6f6f6;
+$darkText: #1e1e1e;
+$disabled: #f3f3f3;
+$gradientGreen: linear-gradient(90deg, #4ab493, #0d645d);
 
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -60,4 +68,29 @@ body {
   transition: 300ms ease-in-out;
   color: white;
   background-color: $primary;
+}
+.main__container {
+  width: 100%;
+  max-width: 1440px;
+  height: fit-content;
+  margin: 0px auto;
+}
+.containers__heading__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.containers__heading {
+  font-size: 30px;
+  font-weight: 600;
+  color: $primaryDark;
+}
+.containers__heading__line {
+  width: 180px;
+  height: 6px;
+  border-radius: 6px;
+  margin-top: 0.2em;
+  background: $gradientGreen;
 }
