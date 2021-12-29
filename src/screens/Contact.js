@@ -1,5 +1,4 @@
 import React from "react";
-import { Header } from "../components";
 import main__background__img from "../assets/main__background__img.png";
 
 export default function Contact() {

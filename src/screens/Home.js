@@ -1,96 +1,183 @@
 import React from "react";
 import main__background__img from "../assets/main__background__img.png";
 import main__illustration from "../assets/main__illustration.png";
+import productSvgInactive from "../assets/productSvgInactive.svg";
+import productSvgActive from "../assets/productSvgActive.svg";
+import healthSvgInactive from "../assets/healthSvgInactive.svg";
+import healthSvgActive from "../assets/healthSvgActive.svg";
+import consultationsSvgInactive from "../assets/consultationsSvgInactive.svg";
+import consultationsSvgActive from "../assets/consultationsSvgActive.svg";
+import remoteSvgInactive from "../assets/remoteSvgInactive.svg";
+import remoteSvgActive from "../assets/remoteSvgActive.svg";
+import TrendSvg from "../assets/TrendSvg.svg";
+import patientSaftySvg from "../assets/patientSaftySvg.svg";
+import apiSvg from "../assets/apiSvg.svg";
+import AddonSectionBg from "../assets/AddonSectionBg.png";
+import welcomeBg from "../assets/welcomeBg.png";
+import doctorsPic from "../assets/doctorsPic.png";
 import { SectionsHeading } from "../components";
 
 export default function Home() {
   return (
-    <div className="main__container">
-      <div className="main__container__jumbotron">
-        <img
-          src={main__background__img}
-          alt="main__background__img"
-          className="main__container__jumbotron__main__bg"
-        />
-        <div className="main__container__jumbotron__overlay">
+    <>
+      <div className="main__container">
+        <div className="main__container__jumbotron">
           <img
-            src={main__illustration}
-            alt="main__illustration"
-            className="main__illustration"
+            src={main__background__img}
+            alt="main__background__img"
+            className="main__container__jumbotron__main__bg"
           />
-          <div className="main__container__jumbotron__overlay__heading">
-            Technology in <span>Healthcare</span>
+          <div className="main__container__jumbotron__overlay">
+            <img
+              src={main__illustration}
+              alt="main__illustration"
+              className="main__illustration"
+            />
+            <div className="main__container__jumbotron__overlay__heading">
+              Technology in <span>Healthcare</span>
+            </div>
+            <div className="main__container__jumbotron__overlay__para">
+              Like You've Never Seen
+            </div>
           </div>
-          <div className="main__container__jumbotron__overlay__para">
-            Like You've Never Seen
+        </div>
+        <div className="services__container">
+          <SectionsHeading heading="Sevices" />
+          <div className="services__container__content">
+            <div className="services__container__card__wrapper">
+              <img
+                src={healthSvgInactive}
+                alt="healthSvgInactive"
+                className="services__container__card__wrapper__svg"
+              />
+              <img
+                src={healthSvgActive}
+                alt="healthSvgActive"
+                className="services__container__card__wrapper__svg__hover"
+              />
+              <div className="services__container__card__text">
+                <span>Customized</span> Health Tech Solutions
+              </div>
+            </div>
+            <div className="services__container__card__wrapper">
+              <img
+                src={productSvgInactive}
+                alt="productSvgInactive"
+                className="services__container__card__wrapper__svg"
+              />
+              <img
+                src={productSvgActive}
+                alt="productSvgInactive"
+                className="services__container__card__wrapper__svg__hover"
+              />
+              <div className="services__container__card__text">
+                <span>Product</span>Development
+              </div>
+            </div>
+            <div className="services__container__card__wrapper">
+              <img
+                src={consultationsSvgInactive}
+                alt="consultationsSvgInactive"
+                className="services__container__card__wrapper__svg"
+              />
+              <img
+                src={consultationsSvgActive}
+                alt="consultationsSvgActive "
+                className="services__container__card__wrapper__svg__hover"
+              />
+              <div className="services__container__card__text">
+                <span>Technical</span>Consultations
+              </div>
+            </div>
+            <div className="services__container__card__wrapper">
+              <img
+                src={remoteSvgInactive}
+                alt="remoteSvgInactive"
+                className="services__container__card__wrapper__svg"
+              />
+              <img
+                src={remoteSvgActive}
+                alt="remoteSvgActive"
+                className="services__container__card__wrapper__svg__hover"
+              />
+              <div className="services__container__card__text">
+                <span>Remote</span>
+                Patient Monitoring
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="addons__container">
+          <SectionsHeading heading="Value Addons" />
+          <img
+            src={AddonSectionBg}
+            alt="AddonSectionBg"
+            className="AddonSectionBg"
+          />
+
+          <div className="addons__container__content">
+            <div className="addons__container__content__card">
+              <img
+                src={TrendSvg}
+                alt="TrendSvg"
+                className="addons__container__content__card__svg"
+              />
+              {/* <img
+                src={healthSvgActive}
+                alt="healthSvgActive"
+                className="addons__container__content__card__svg__hover"
+              /> */}
+              <div className="addons__container__content__card__text">
+                Health Trends
+              </div>
+            </div>
+            <div className="addons__container__content__card">
+              <img
+                src={apiSvg}
+                alt="apiSvg"
+                className="addons__container__content__card__svg"
+              />
+              {/* <img
+                src={healthSvgActive}
+                alt="healthSvgActive"
+                className="addons__container__content__card__svg__hover"
+              /> */}
+              <div className="addons__container__content__card__text">
+                Integration with HIMS with API & SDK
+              </div>
+            </div>
+            <div className="addons__container__content__card">
+              <img
+                src={patientSaftySvg}
+                alt="patientSaftySvg"
+                className="addons__container__content__card__svg"
+              />
+              {/* <img
+                src={healthSvgActive}
+                alt="healthSvgActive"
+                className="addons__container__content__card__svg__hover"
+              /> */}
+              <div className="addons__container__content__card__text">
+                Improved Patient Safety with DEWS
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div className="services__container">
-        <SectionsHeading heading="Sevices" />
-        <div className="services__container__card__wrapper">
-          <svg
-            className="services__container__card__wrapper__svg"
-            id="Group_11"
-            data-name="Group 11"
-            xmlns="http://www.w3.org/2000/svg"
-            width="82.177"
-            height="74.238"
-            viewBox="0 0 82.177 74.238"
-          >
-            <defs>
-              <linearGradient
-                id="linear-gradient"
-                x1="0.5"
-                x2="0.5"
-                y2="1"
-                gradientUnits="objectBoundingBox"
-              >
-                <stop offset="0" stop-color="#0d645d" />
-                <stop offset="1" stop-color="#4ab493" />
-              </linearGradient>
-              <clipPath id="clip-path">
-                <rect
-                  id="Rectangle_8"
-                  data-name="Rectangle 8"
-                  width="82.177"
-                  height="74.238"
-                  fill="url(#linear-gradient)"
-                />
-              </clipPath>
-              <linearGradient
-                id="linear-gradient-3"
-                x1="0.5"
-                x2="0.5"
-                y2="1"
-                gradientUnits="objectBoundingBox"
-              >
-                <stop offset="0" stop-color="#1c1c1c" />
-                <stop offset="1" stop-color="#707070" />
-              </linearGradient>
-            </defs>
-            <g id="Group_10" data-name="Group 10" clip-path="url(#clip-path)">
-              <path
-                id="Path_7"
-                data-name="Path 7"
-                d="M35.585,42.409c-1.795-2.816-3.46-5.426-5.123-8.038-.46-.722-.9-1.454-1.378-2.167a2.413,2.413,0,0,0-4.342.043c-.9,1.454-1.732,2.955-2.673,4.383a1.646,1.646,0,0,1-1.155.669c-5.389.044-10.778.015-16.167.046-.716,0-.993-.379-1.3-.89A23.918,23.918,0,0,1,16.9,1.213C25.361-1.523,33.02.506,39.867,5.927a1.543,1.543,0,0,0,2.375-.006A24.5,24.5,0,0,1,61.269.268C71.52,1.538,80.691,10.7,81.985,20.957a24.228,24.228,0,0,1-3.376,15.585,1.448,1.448,0,0,1-1.454.8q-9.1-.04-18.2,0a1.526,1.526,0,0,1-1.559-.963c-2.49-4.692-5.036-9.355-7.538-14.041a2.591,2.591,0,0,0-2.47-1.705,2.55,2.55,0,0,0-2.292,1.785q-4.4,9.335-8.84,18.647c-.182.383-.378.759-.668,1.337"
-                transform="translate(0 0)"
-                fill="url(#linear-gradient)"
-              />
-              <path
-                id="Path_8"
-                data-name="Path 8"
-                d="M36.593,146.294h1.39c4.46,0,8.92-.026,13.38.016a2.832,2.832,0,0,0,2.79-1.577c.454-.84.985-1.639,1.586-2.629.764,1.187,1.449,2.241,2.125,3.3,1.514,2.375,3.034,4.746,4.529,7.133a2.561,2.561,0,0,0,2.421,1.454,2.532,2.532,0,0,0,2.223-1.73q4.381-9.28,8.793-18.545c.151-.317.312-.629.557-1.123.755,1.4,1.43,2.64,2.1,3.885,1.473,2.728,2.97,5.445,4.406,8.192a2.774,2.774,0,0,0,2.74,1.636c5.316-.033,10.633-.014,15.949-.013h1.436c-.432.481-.662.766-.92,1.023Q87,162.339,71.9,177.355c-1.46,1.452-2.706,1.456-4.155.015Q52.6,162.315,37.468,147.254c-.24-.239-.457-.5-.875-.96"
-                transform="translate(-28.76 -104.21)"
-                fill="url(#linear-gradient-3)"
-              />
-            </g>
-          </svg>
-          <div className="services__container__card__text">
-            Customized Health Tech Solutions
+      <div className="welcome__container">
+        <div className="welcome__container__overlay">
+          <img src={doctorsPic} alt="doctorsPic" className="doctorsPic" />
+          <div className="welcome__container__overlay__content">
+            <div className="welcome__container__overlay__heading">
+              Welcome To SeeVitals
+            </div>
+            <div className="welcome__container__overlay__para">
+              Contactless patient monitoring & Early Warning System for Step
+              down ICU & HDU Units
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

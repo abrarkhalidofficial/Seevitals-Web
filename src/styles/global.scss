@@ -6,6 +6,7 @@ $whiteText: #f6f6f6;
 $darkText: #1e1e1e;
 $disabled: #f3f3f3;
 $gradientGreen: linear-gradient(90deg, #4ab493, #0d645d);
+$gradientBlack: linear-gradient(180deg, #707070, #1c1c1c);
 
 *,
 *::after,
@@ -36,6 +37,9 @@ body {
   width: 100%;
   max-width: 1440px;
   padding: 1em 2em;
+  position: fixed;
+  z-index: 999;
+  background: #ffffff;
 }
 .brand__logo {
   width: 130px;
@@ -67,7 +71,7 @@ body {
 .nav__link__input:checked ~ .nav__link__content {
   transition: 300ms ease-in-out;
   color: white;
-  background-color: $primary;
+  background: $primary;
 }
 .main__container {
   width: 100%;
@@ -88,7 +92,7 @@ body {
   color: $primaryDark;
 }
 .containers__heading__line {
-  width: 180px;
+  width: 200px;
   height: 6px;
   border-radius: 6px;
   margin-top: 0.2em;

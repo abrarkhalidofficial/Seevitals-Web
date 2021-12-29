@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   position: relative;
 }
@@ -11,7 +11,7 @@
   background-size: cover;
 }
 .main__illustration {
-  width: 700px;
+  width: 730px;
 }
 .main__container__jumbotron__overlay {
   display: flex;
@@ -35,24 +35,172 @@
 }
 .services__container {
   width: 100%;
-  height: 40vh;
+  height: 70vh;
+  margin-top: 2em;
 }
 .services__container__card__wrapper {
-  width: 23%;
-  height: fit-content;
-  min-height: 300px;
+  width: 300px;
+  display: flex;
+  height: 100%;
+  min-height: 280px;
   background-color: $disabled;
   border-radius: 30px;
   padding: 2em;
   position: relative;
+  cursor: pointer;
+  margin-top: 2em;
+}
+.services__container__card__wrapper:hover
+  .services__container__card__wrapper__svg__hover {
+  display: flex;
+  transition: 300ms ease-in-out;
+}
+
+.services__container__card__wrapper:hover {
+  background: $gradientGreen;
+  transform: scale(1.03);
+  transition: 300ms ease-in-out;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+.services__container__card__wrapper:hover .services__container__card__text {
+  color: $whiteText;
 }
 .services__container__card__wrapper__svg {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.services__container__card__wrapper__svg__hover {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.services__container__card__text {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  font-size: 18px;
+  font-weight: bold;
+}
+.services__container__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4em 0em;
+}
+.addons__container {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+.AddonSectionBg {
+  width: 100%;
+}
+.addons__container__content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.services__container__card__text {
+  width: 100%;
+  height: fit-content;
   display: flex;
-  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.addons__container__content__card {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  min-height: 280px;
+  background: $gradientBlack;
+  border-radius: 30px;
+  padding: 2em;
+  position: relative;
+  cursor: pointer;
+  margin-top: 2em;
+}
+.addons__container__content__card__svg {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.addons__container__content__card__text {
+  text-align: center;
+  align-self: flex-end;
+  color: $whiteText;
+  font-size: 18px;
+  font-weight: bold;
+}
+.addons__container__content__card__svg {
+  width: 120px;
+}
+.welcome__container {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  background-image: url("../assets/welcomeBg.png");
+  background-size: cover;
+}
+.welcomeBg {
+  width: 100%;
+}
+.welcome__container__overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.doctorsPic {
+  width: 580px;
+}
+.welcome__container__overlay__content {
+  width: 100%;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.welcome__container__overlay__heading {
+  font-size: 30px;
+  color: $whiteText;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+}
+.welcome__container__overlay__para {
+  font-size: 22px;
+  color: $whiteText;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+@media (max-width: 620px) {
+  .services__container__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .main__illustration {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .main__illustration {
+    width: 350px;
+  }
+  .main__container__jumbotron__overlay__heading {
+    font-size: 24px;
+  }
+  .main__container__jumbotron__overlay__para {
+    font-size: 18px;
+  }
 }
