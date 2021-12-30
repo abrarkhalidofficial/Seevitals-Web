@@ -15,6 +15,12 @@ import apiSvg from "../assets/apiSvg.svg";
 import AddonSectionBg from "../assets/AddonSectionBg.png";
 import welcomeBg from "../assets/welcomeBg.png";
 import doctorsPic from "../assets/doctorsPic.png";
+import clinicSvgInactive from "../assets/outcomesSectionSvg/clinicSvgInactive.svg";
+import clinicSvgActive from "../assets/outcomesSectionSvg/clinicSvgActive.svg";
+import icuInactive from "../assets/outcomesSectionSvg/icuInactive.svg";
+import icuActive from "../assets/outcomesSectionSvg/icuActive.svg";
+import careInactive from "../assets/outcomesSectionSvg/careInactive.svg";
+import careActive from "../assets/outcomesSectionSvg/careActive.svg";
 import { SectionsHeading } from "../components";
 
 export default function Home() {
@@ -184,6 +190,142 @@ export default function Home() {
               <div className="welcome__container__content__gradiant__content__sub__heading">
                 Contactless patient monitoring & Early Warning System for Step
                 down ICU & HDU Units
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="outcomes__container">
+        <div className="outcomes__container__content">
+          <div className="outcomes__container__content__headings__container">
+            <div className="outcomes__container__content__heading">
+              Improve Patient Outcomes
+            </div>
+            <div className="outcomes__container__content__para">
+              In Your Hospital With SeeVitals Early Warning System
+            </div>
+          </div>
+          <div className="outcomes__container__content__cards__container">
+            <div className="outcomes__container__content__card">
+              <img
+                src={careInactive}
+                alt="clinicSvgInactive"
+                className="outcomes__container__content__card__svg"
+              />
+              <img
+                src={careActive}
+                alt="clinicSvgActive"
+                className="outcomes__container__content__card__svg__hover"
+              />
+              <div className="outcomes__container__content__card__text">
+                Improved Clinical Outcomes & Patient Safety
+              </div>
+            </div>
+            <div className="outcomes__container__content__card">
+              <img
+                src={careInactive}
+                alt="clinicSvgInactive"
+                className="outcomes__container__content__card__svg"
+              />
+              <img
+                src={careActive}
+                alt="clinicSvgActive"
+                className="outcomes__container__content__card__svg__hover"
+              />
+              <div className="outcomes__container__content__card__text">
+                Maximize ICU bed throughput
+              </div>
+            </div>
+            <div className="outcomes__container__content__card">
+              <img
+                src={careInactive}
+                alt="clinicSvgInactive"
+                className="outcomes__container__content__card__svg"
+              />
+              <img
+                src={careActive}
+                alt="clinicSvgActive"
+                className="outcomes__container__content__card__svg__hover"
+              />
+              <div className="outcomes__container__content__card__text">
+                Critical Care Outreach automation
+              </div>
+            </div>
+            <div className="outcomes__container__content__card">
+              <img
+                src={careInactive}
+                alt="clinicSvgInactive"
+                className="outcomes__container__content__card__svg"
+              />
+              <img
+                src={careActive}
+                alt="clinicSvgActive"
+                className="outcomes__container__content__card__svg__hover"
+              />
+              <div className="outcomes__container__content__card__text">
+                Digitalization of vitals monitoring
+              </div>
+            </div>
+          </div>
+          <div className="outcomes__container__content__cards__container">
+            <div className="outcomes__container__content__card">
+              <img
+                src={careInactive}
+                alt="clinicSvgInactive"
+                className="outcomes__container__content__card__svg"
+              />
+              <img
+                src={careActive}
+                alt="clinicSvgActive"
+                className="outcomes__container__content__card__svg__hover"
+              />
+              <div className="outcomes__container__content__card__text">
+                Nursing efficiency
+              </div>
+            </div>
+            <div className="outcomes__container__content__card">
+              <img
+                src={careInactive}
+                alt="clinicSvgInactive"
+                className="outcomes__container__content__card__svg"
+              />
+              <img
+                src={careActive}
+                alt="clinicSvgActive"
+                className="outcomes__container__content__card__svg__hover"
+              />
+              <div className="outcomes__container__content__card__text">
+                Convenient & Easy to adopt
+              </div>
+            </div>
+            <div className="outcomes__container__content__card">
+              <img
+                src={careInactive}
+                alt="clinicSvgInactive"
+                className="outcomes__container__content__card__svg"
+              />
+              <img
+                src={careActive}
+                alt="clinicSvgActive"
+                className="outcomes__container__content__card__svg__hover"
+              />
+              <div className="outcomes__container__content__card__text">
+                Patient History
+              </div>
+            </div>
+            <div className="outcomes__container__content__card">
+              <img
+                src={careInactive}
+                alt="clinicSvgInactive"
+                className="outcomes__container__content__card__svg"
+              />
+              <img
+                src={careActive}
+                alt="clinicSvgActive"
+                className="outcomes__container__content__card__svg__hover"
+              />
+              <div className="outcomes__container__content__card__text">
+                Doctors ease
               </div>
             </div>
           </div>
