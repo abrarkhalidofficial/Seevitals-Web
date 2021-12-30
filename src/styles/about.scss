@@ -23,7 +23,7 @@
   width: 100%;
   max-width: 1440px;
   top: 32%;
-  left: -8%;
+  left: -10%;
 }
 .about__hero__section__heading1 {
   font-size: 30px;
@@ -43,4 +43,36 @@
 .about__hero__section__heading3 {
   font-size: 22px;
   color: $darkText;
+}
+.about__story {
+  max-width: 1440px;
+}
+.about__story__img__bg {
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+}
+.aboutus__story__body {
+  width: 70%;
+  height: 500px;
+  background: $gradientBlack;
+  margin-top: 8em;
+  border-radius: 0px 0px 91px 0px;
+}
+.aboutus__story__heading {
+  color: $primary;
+  font-size: 40px;
+  font-weight: bold;
+  transform: rotate(270deg);
+  position: absolute;
+}
+.aboutus__story__body1 {
+  color: $disabled;
+  font-size: 16px;
+  padding: 5em 4em 4em 4em;
+}
+.aboutus__story__body2 {
+  color: $disabled;
+  font-size: 16px;
+  padding: 1em 4em 4em 4em;
 }
