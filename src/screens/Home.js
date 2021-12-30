@@ -20,30 +20,31 @@ import { SectionsHeading } from "../components";
 export default function Home() {
   return (
     <>
-      <div className="main__container">
-        <div className="main__container__jumbotron">
+      <div className="main__container__jumbotron">
+        <img
+          src={main__background__img}
+          alt="main__background__img"
+          className="main__container__jumbotron__main__bg"
+        />
+        <div className="main__container__jumbotron__overlay">
           <img
-            src={main__background__img}
-            alt="main__background__img"
-            className="main__container__jumbotron__main__bg"
+            src={main__illustration}
+            alt="main__illustration"
+            className="main__illustration"
           />
-          <div className="main__container__jumbotron__overlay">
-            <img
-              src={main__illustration}
-              alt="main__illustration"
-              className="main__illustration"
-            />
-            <div className="main__container__jumbotron__overlay__heading">
-              Technology in <span>Healthcare</span>
-            </div>
-            <div className="main__container__jumbotron__overlay__para">
-              Like You've Never Seen
-            </div>
+          <div className="main__container__jumbotron__overlay__heading">
+            Technology in <span>Healthcare</span>
+          </div>
+          <div className="main__container__jumbotron__overlay__para">
+            Like You've Never Seen
           </div>
         </div>
-        <div className="services__container">
-          <SectionsHeading heading="Sevices" />
-          <div className="services__container__content">
+      </div>
+
+      <div className="services__container">
+        <div className="services__container__content">
+          <div className="addons__container__content__heading">Services</div>
+          <div className="services__container__cards__container">
             <div className="services__container__card__wrapper">
               <img
                 src={healthSvgInactive}
@@ -178,12 +179,11 @@ export default function Home() {
           <div className="welcome__container__content__gradiant">
             <div className="welcome__container__content__gradiant__content">
               <div className="welcome__container__content__gradiant__content__heading">
-                Lorem ipsum dolor sit amet.
+                Welcome To SeeVitals
               </div>
               <div className="welcome__container__content__gradiant__content__sub__heading">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Laborum, excepturi. Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Laborum, excepturi.
+                Contactless patient monitoring & Early Warning System for Step
+                down ICU & HDU Units
               </div>
             </div>
           </div>
