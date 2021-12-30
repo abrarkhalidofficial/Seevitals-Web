@@ -165,10 +165,24 @@ export default function Home() {
         </div>
       </div>
       <div className="welcome__container">
-        <div className="welcome__container__main__bg">
-          <img src={welcomeBg} alt="welcomeBg" className="welcomeBg" />
-          <div className="welcome__container__illustration">
-            <img src={doctorsPic} alt="doctorsPic" className="doctorsPic" />
+        <img src={welcomeBg} alt="" className="welcome__container__img" />
+        <div className="welcome__container__content">
+          <img
+            src={doctorsPic}
+            alt=""
+            className="welcome__container__content__img"
+          />
+          <div className="welcome__container__content__gradiant">
+            <div className="welcome__container__content__gradiant__content">
+              <div className="welcome__container__content__gradiant__content__heading">
+                Lorem ipsum dolor sit amet.
+              </div>
+              <div className="welcome__container__content__gradiant__content__sub__heading">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Laborum, excepturi. Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Laborum, excepturi.
+              </div>
+            </div>
           </div>
         </div>
       </div>

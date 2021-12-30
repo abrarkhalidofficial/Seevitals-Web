@@ -154,33 +154,57 @@
   width: 120px;
 }
 .welcome__container {
-  width: 100%;
-  max-height: 500px;
   position: relative;
-}
-.welcomeBg {
   width: 100%;
+  height: 550px;
 }
-.welcome__container__illustration {
+.welcome__container__img {
+  width: 100%;
+  height: 100%;
+}
+.welcome__container__content {
   position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.doctorsPic {
-  width: 700px;
+.welcome__container__content__img {
+  width: 600px;
 }
-.welcome__container__overlay__heading {
-  font-size: 30px;
+.welcome__container__content__gradiant {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: linear-gradient(transparent, transparent, #0a5f58a8, #0a5f58);
+}
+.welcome__container__content__gradiant__content {
+  margin-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome__container__content__gradiant__content__heading {
+  font-size: 25px;
   color: $whiteText;
   font-weight: 600;
   margin-bottom: 0.2em;
 }
-.welcome__container__overlay__para {
-  font-size: 22px;
+.welcome__container__content__gradiant__content__sub__heading {
+  font-size: 14px;
   color: $whiteText;
-  font-weight: 500;
-  margin-bottom: 1em;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+  max-width: 800px;
+  text-align: center;
 }
 @media (max-width: 620px) {
   .services__container__content {
@@ -200,5 +224,11 @@
   }
   .main__container__jumbotron__overlay__para {
     font-size: 18px;
+  }
+  .welcome__container__content__img {
+    width: 400px;
+  }
+  .welcome__container__content__gradiant__content {
+    padding: 0em 2em;
   }
 }
