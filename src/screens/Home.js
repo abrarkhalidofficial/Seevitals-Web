@@ -165,19 +165,23 @@ export default function Home() {
         </div>
       </div>
       <div className="welcome__container">
-        <div className="welcome__container__overlay">
-          <img src={doctorsPic} alt="doctorsPic" className="doctorsPic" />
-          <div className="welcome__container__overlay__content">
-            <div className="welcome__container__overlay__heading">
-              Welcome To SeeVitals
-            </div>
-            <div className="welcome__container__overlay__para">
-              Contactless patient monitoring & Early Warning System for Step
-              down ICU & HDU Units
-            </div>
+        <div className="welcome__container__main__bg">
+          <img src={welcomeBg} alt="welcomeBg" className="welcomeBg" />
+          <div className="welcome__container__illustration">
+            <img src={doctorsPic} alt="doctorsPic" className="doctorsPic" />
           </div>
         </div>
       </div>
     </>
   );
+}
+
+{
+  /* <div className="welcome__container__overlay__heading">
+Welcome To SeeVitals
+</div>
+<div className="welcome__container__overlay__para">
+Contactless patient monitoring & Early Warning System for Step
+down ICU & HDU Units
+</div> */
 }
