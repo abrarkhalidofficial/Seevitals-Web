@@ -1,0 +1,46 @@
+.about__hero__section {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  margin-top: 6em;
+}
+.about__us__bg {
+  width: 100%;
+}
+.about__hero__section__right__img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+.about__hero__section__right__img__bg {
+  width: 750px;
+}
+.about__hero__section__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  max-width: 1440px;
+  top: 32%;
+  left: -8%;
+}
+.about__hero__section__heading1 {
+  font-size: 30px;
+  color: $darkText;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+}
+.about__hero__section__heading2 {
+  font-size: 30px;
+  color: $darkText;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+}
+.about__hero__section__heading2 span {
+  color: $primary;
+}
+.about__hero__section__heading3 {
+  font-size: 22px;
+  color: $darkText;
+}
