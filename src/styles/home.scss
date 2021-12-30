@@ -249,7 +249,7 @@
 .outcomes__container {
   width: 100%;
   height: fit-content;
-  height: 600px;
+  min-height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -335,6 +335,69 @@
   align-items: center;
   width: 100%;
   margin: 2em 0em;
+}
+.parameters__container {
+  width: 100%;
+  height: fit-content;
+  min-height: 600px;
+  position: relative;
+}
+.parameter__container__bg {
+  width: 100%;
+  height: 600px;
+}
+.parameters__container__content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.parameters__container__content__headings__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.parameters__container__content__headings {
+  font-size: 25px;
+  color: $primary;
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
+.parameters__container__content__para {
+  font-size: 16px;
+  color: $whiteText;
+}
+.parameters__container__content__entry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 130px;
+  margin: 4em 0em;
+  margin-right: 2em;
+}
+.parameters__container__content__entries__wrapper {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+.parameters__container__content__entry__svg {
+  margin-bottom: 1em;
+}
+.parameters__container__content__entry__text {
+  font-size: 16px;
+  font-weight: 600;
+  color: $whiteText;
 }
 @media (max-width: 1250px) {
   .services__container__card__wrapper {
