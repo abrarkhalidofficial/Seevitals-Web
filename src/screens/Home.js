@@ -17,6 +17,7 @@ import welcomeBg from "../assets/welcomeBg.png";
 import doctorsPic from "../assets/doctorsPic.png";
 import parameterBg from "../assets/parameterBg.png";
 import whyChooseUsBg from "../assets/whyChooseUsBg.png";
+import FooterBg from "../assets/FooterBg.png";
 import clinicSvgInactive from "../assets/outcomesSectionSvg/clinicSvgInactive.svg";
 import clinicSvgActive from "../assets/outcomesSectionSvg/clinicSvgActive.svg";
 import icuInactive from "../assets/outcomesSectionSvg/icuInactive.svg";
@@ -1161,16 +1162,14 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="footer__container">
+        <img
+          src={FooterBg}
+          alt="footer__container__bg"
+          className="footer__container__bg"
+        />
+        <div className="footer__container__overlay">kdsjfsd</div>
+      </div>
     </>
   );
-}
-
-{
-  /* <div className="welcome__container__overlay__heading">
-Welcome To SeeVitals
-</div>
-<div className="welcome__container__overlay__para">
-Contactless patient monitoring & Early Warning System for Step
-down ICU & HDU Units
-</div> */
 }

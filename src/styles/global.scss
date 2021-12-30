@@ -100,3 +100,24 @@ body {
   margin-top: 0.2em;
   background: $gradientGreen;
 }
+.footer__container {
+  width: 100%;
+  height: fit-content;
+  min-height: 600px;
+  position: relative;
+  top: -4px;
+}
+.footer__container__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.footer__container__overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+}
