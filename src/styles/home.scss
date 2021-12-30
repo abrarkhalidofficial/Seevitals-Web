@@ -94,36 +94,63 @@
 }
 .addons__container {
   width: 100%;
-  height: 60vh;
+  height: 600px;
   position: relative;
 }
-.AddonSectionBg {
+.addons__container__img {
   width: 100%;
+  height: 100%;
 }
 .addons__container__content {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0px;
+  left: 0px;
   width: 100%;
-  height: fit-content;
+  height: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0em 2em;
+  background: linear-gradient(#ffffff, transparent, #ffffff);
+}
+.addons__container__content__heading {
+  font-size: 25px;
+  color: $primaryDark;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 3em;
+}
+.addons__container__content__heading::after {
+  content: "";
+  background: $gradientGreen;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+}
+.addons__container__content__cards {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .addons__container__content__card {
-  width: 300px;
+  width: 33%;
+  max-width: 300px;
   display: flex;
   justify-content: center;
   text-align: center;
-  height: 100%;
-  min-height: 280px;
+  height: 280px;
   background: $gradientBlack;
-  border-radius: 30px;
+  border-radius: 25px;
   padding: 2em;
   position: relative;
   cursor: pointer;
-  margin-top: 2em;
 }
 .addons__container__content__card:hover {
   background: $gradientGreen;
@@ -136,6 +163,8 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
 }
 .addons__container__content__card__svg__hover {
   position: absolute;
@@ -147,8 +176,9 @@
   text-align: center;
   align-self: flex-end;
   color: $whiteText;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
+  max-width: 80%;
 }
 .addons__container__content__card__svg {
   width: 120px;
@@ -205,6 +235,31 @@
   margin-bottom: 0.2em;
   max-width: 800px;
   text-align: center;
+}
+@media (max-width: 1000px) {
+  .addons__container__content__card {
+    flex: 1;
+    margin-right: 2em;
+  }
+  .addons__container__content__card:last-child {
+    margin-right: 0em;
+  }
+}
+@media (max-width: 800px) {
+  .addons__container {
+    height: 1000px;
+  }
+  .addons__container__content__cards {
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+  }
+  .addons__container__content__card {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0em;
+    margin-bottom: 2em;
+  }
 }
 @media (max-width: 620px) {
   .services__container__content {

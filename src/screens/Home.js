@@ -107,15 +107,18 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="addons__container">
-          <SectionsHeading heading="Value Addons" />
-          <img
-            src={AddonSectionBg}
-            alt="AddonSectionBg"
-            className="AddonSectionBg"
-          />
-
-          <div className="addons__container__content">
+      </div>
+      <div className="addons__container">
+        <img
+          src={AddonSectionBg}
+          alt="addons__container__img"
+          className="addons__container__img"
+        />
+        <div className="addons__container__content">
+          <div className="addons__container__content__heading">
+            Value Addons
+          </div>
+          <div className="addons__container__content__cards">
             <div className="addons__container__content__card">
               <img
                 src={TrendSvg}
