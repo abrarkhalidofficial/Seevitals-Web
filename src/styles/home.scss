@@ -469,7 +469,7 @@
 }
 @media (max-width: 1250px) {
   .why__choose__us__container__content {
-    width: 80%;
+    width: 85%;
   }
   .parameters__container__content__entries__wrapper {
     padding: 0em 2em;
@@ -483,7 +483,7 @@
 }
 @media (max-width: 1000px) {
   .why__choose__us__container__content {
-    width: 85%;
+    width: 90%;
   }
   .outcomes__container__content__card {
     width: 200px;
@@ -513,6 +513,9 @@
   }
 }
 @media (max-width: 900px) {
+  .why__choose__us__container__content {
+    width: 100%;
+  }
   .outcomes__container__content__cards__container {
     margin: 1em 0em;
     flex-wrap: wrap;
