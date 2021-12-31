@@ -40,6 +40,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  margin-bottom: 600px;
 }
 .contact__container__form {
   position: absolute;
@@ -192,6 +193,9 @@
   .contact__container__form__content__left,
   .contact__container__form__content__right {
     width: 100%;
+  }
+  .contact__container__form__wrapper {
+    height: 300px;
   }
 }
 @media (max-width: 700px) {
