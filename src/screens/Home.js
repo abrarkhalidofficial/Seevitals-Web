@@ -1440,14 +1440,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="footer__container__overlay__footer">
-            <div
-              style={{ fontSize: 20, color: "#ffffff" }}
-              className="footer__container__overlay__footer__wrapper"
-            >
-              Footer
-            </div>
-          </div>
         </div>
       </div>
     </>
