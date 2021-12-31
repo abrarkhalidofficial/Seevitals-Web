@@ -4,6 +4,15 @@ import logo from "../assets/logo.png";
 
 export default function Header() {
   const [isHeaderOpen, setIsHeaderOpen] = useState(true);
+  useEffect(() => {
+    let route = localStorage.getItem("route");
+    console.log(route);
+    function setRoute(route) {
+      document.getElementById(route).checked =
+        !document.getElementById(route).checked;
+    }
+    setRoute(route);
+  }, []);
 
   useEffect(() => {
     if (window.innerWidth > 800) {
@@ -85,6 +94,7 @@ export default function Header() {
                 defaultChecked={true}
                 onClick={() => {
                   navigate("/");
+                  localStorage.setItem("route", "home");
                 }}
               />
               <div className="nav__link__content">Home</div>
@@ -92,10 +102,12 @@ export default function Header() {
             <div className="nav__link">
               <input
                 type="radio"
+                id="about"
                 className="nav__link__input"
                 name="nav__link__input"
                 onClick={() => {
                   navigate("/about");
+                  localStorage.setItem("route", "about");
                 }}
               />
               <div className="nav__link__content">About Us</div>
@@ -114,10 +126,12 @@ export default function Header() {
             <div className="nav__link">
               <input
                 type="radio"
+                id="contact"
                 className="nav__link__input"
                 name="nav__link__input"
                 onClick={() => {
                   navigate("/contact");
+                  localStorage.setItem("route", "contact");
                 }}
               />
               <div className="nav__link__content">Contact Us</div>
