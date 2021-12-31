@@ -27,6 +27,16 @@ import icuInactive from "../assets/outcomesSectionSvg/icuInactive.svg";
 import icuActive from "../assets/outcomesSectionSvg/icuActive.svg";
 import careInactive from "../assets/outcomesSectionSvg/careInactive.svg";
 import careActive from "../assets/outcomesSectionSvg/careActive.svg";
+import monitorInactive from "../assets/outcomesSectionSvg/monitorInactive.svg";
+import monitorActive from "../assets/outcomesSectionSvg/monitorActive.svg";
+import nursingInactive from "../assets/outcomesSectionSvg/nursingInactive.svg";
+import nursingActive from "../assets/outcomesSectionSvg/nursingActive.svg";
+import adoptInactive from "../assets/outcomesSectionSvg/adoptInactive.svg";
+import adoptActive from "../assets/outcomesSectionSvg/adoptActive.svg";
+import historyInactive from "../assets/outcomesSectionSvg/historyInactive.svg";
+import historyActive from "../assets/outcomesSectionSvg/historyActive.svg";
+import easeInactive from "../assets/outcomesSectionSvg/easeInactive.svg";
+import easeActive from "../assets/outcomesSectionSvg/easeActive.svg";
 
 export default function Home() {
   return (
@@ -137,11 +147,11 @@ export default function Home() {
                 alt="TrendSvg"
                 className="addons__container__content__card__svg"
               />
-              {/* <img
-                src={healthSvgActive}
-                alt="healthSvgActive"
+              <img
+                src={TrendSvg}
+                alt="TrendSvg"
                 className="addons__container__content__card__svg__hover"
-              /> */}
+              />
               <div className="addons__container__content__card__text">
                 Health Trends
               </div>
@@ -152,11 +162,11 @@ export default function Home() {
                 alt="apiSvg"
                 className="addons__container__content__card__svg"
               />
-              {/* <img
-                src={healthSvgActive}
-                alt="healthSvgActive"
+              <img
+                src={apiSvg}
+                alt="apiSvg"
                 className="addons__container__content__card__svg__hover"
-              /> */}
+              />
               <div className="addons__container__content__card__text">
                 Integration with HIMS with API & SDK
               </div>
@@ -167,11 +177,11 @@ export default function Home() {
                 alt="patientSaftySvg"
                 className="addons__container__content__card__svg"
               />
-              {/* <img
-                src={healthSvgActive}
-                alt="healthSvgActive"
+              <img
+                src={patientSaftySvg}
+                alt="patientSaftySvg"
                 className="addons__container__content__card__svg__hover"
-              /> */}
+              />
               <div className="addons__container__content__card__text">
                 Improved Patient Safety with DEWS
               </div>
@@ -213,12 +223,12 @@ export default function Home() {
           <div className="outcomes__container__content__cards__container">
             <div className="outcomes__container__content__card">
               <img
-                src={careInactive}
+                src={clinicSvgInactive}
                 alt="clinicSvgInactive"
                 className="outcomes__container__content__card__svg"
               />
               <img
-                src={careActive}
+                src={clinicSvgActive}
                 alt="clinicSvgActive"
                 className="outcomes__container__content__card__svg__hover"
               />
@@ -228,13 +238,13 @@ export default function Home() {
             </div>
             <div className="outcomes__container__content__card">
               <img
-                src={careInactive}
-                alt="clinicSvgInactive"
+                src={icuInactive}
+                alt="icuInactive"
                 className="outcomes__container__content__card__svg"
               />
               <img
-                src={careActive}
-                alt="clinicSvgActive"
+                src={icuActive}
+                alt="icuActive"
                 className="outcomes__container__content__card__svg__hover"
               />
               <div className="outcomes__container__content__card__text">
@@ -244,12 +254,12 @@ export default function Home() {
             <div className="outcomes__container__content__card">
               <img
                 src={careInactive}
-                alt="clinicSvgInactive"
+                alt="careInactive"
                 className="outcomes__container__content__card__svg"
               />
               <img
                 src={careActive}
-                alt="clinicSvgActive"
+                alt="careActive"
                 className="outcomes__container__content__card__svg__hover"
               />
               <div className="outcomes__container__content__card__text">
@@ -258,13 +268,13 @@ export default function Home() {
             </div>
             <div className="outcomes__container__content__card">
               <img
-                src={careInactive}
-                alt="clinicSvgInactive"
+                src={monitorInactive}
+                alt="monitorInactive"
                 className="outcomes__container__content__card__svg"
               />
               <img
-                src={careActive}
-                alt="clinicSvgActive"
+                src={monitorActive}
+                alt="monitorActive"
                 className="outcomes__container__content__card__svg__hover"
               />
               <div className="outcomes__container__content__card__text">
@@ -275,13 +285,13 @@ export default function Home() {
           <div className="outcomes__container__content__cards__container">
             <div className="outcomes__container__content__card">
               <img
-                src={careInactive}
-                alt="clinicSvgInactive"
+                src={nursingInactive}
+                alt="nursingInactive"
                 className="outcomes__container__content__card__svg"
               />
               <img
-                src={careActive}
-                alt="clinicSvgActive"
+                src={nursingActive}
+                alt="nursingActive"
                 className="outcomes__container__content__card__svg__hover"
               />
               <div className="outcomes__container__content__card__text">
@@ -290,13 +300,13 @@ export default function Home() {
             </div>
             <div className="outcomes__container__content__card">
               <img
-                src={careInactive}
-                alt="clinicSvgInactive"
+                src={adoptInactive}
+                alt="adoptInactive"
                 className="outcomes__container__content__card__svg"
               />
               <img
-                src={careActive}
-                alt="clinicSvgActive"
+                src={adoptActive}
+                alt="adoptActivehh"
                 className="outcomes__container__content__card__svg__hover"
               />
               <div className="outcomes__container__content__card__text">
@@ -305,13 +315,13 @@ export default function Home() {
             </div>
             <div className="outcomes__container__content__card">
               <img
-                src={careInactive}
-                alt="clinicSvgInactive"
+                src={historyInactive}
+                alt="historyInactive"
                 className="outcomes__container__content__card__svg"
               />
               <img
-                src={careActive}
-                alt="clinicSvgActive"
+                src={historyActive}
+                alt="historyActive"
                 className="outcomes__container__content__card__svg__hover"
               />
               <div className="outcomes__container__content__card__text">
@@ -320,13 +330,13 @@ export default function Home() {
             </div>
             <div className="outcomes__container__content__card">
               <img
-                src={careInactive}
-                alt="clinicSvgInactive"
+                src={easeInactive}
+                alt="easeInactive"
                 className="outcomes__container__content__card__svg"
               />
               <img
-                src={careActive}
-                alt="clinicSvgActive"
+                src={easeActive}
+                alt="easeActive"
                 className="outcomes__container__content__card__svg__hover"
               />
               <div className="outcomes__container__content__card__text">
@@ -1428,6 +1438,14 @@ export default function Home() {
                   </a>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="footer__container__overlay__footer">
+            <div
+              style={{ fontSize: 20, color: "#ffffff" }}
+              className="footer__container__overlay__footer__wrapper"
+            >
+              Footer
             </div>
           </div>
         </div>

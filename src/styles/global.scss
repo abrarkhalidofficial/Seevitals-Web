@@ -133,7 +133,8 @@ body {
   top: 0px;
   left: 0px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .footer__container__overlay__specialist {
   width: 100%;
