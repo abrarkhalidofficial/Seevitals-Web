@@ -8,8 +8,7 @@ export default function Header() {
     let route = localStorage.getItem("route");
     console.log(route);
     function setRoute(route) {
-      document.getElementById(route).checked =
-        !document.getElementById(route).checked;
+      document.getElementById(route).checked = true;
     }
     setRoute(route);
   }, []);
@@ -36,8 +35,7 @@ export default function Header() {
         <Link
           to="/"
           onClick={() => {
-            document.getElementById("home").checked =
-              !document.getElementById("home").checked;
+            document.getElementById("home").checked = true;
           }}
         >
           <img src={logo} className="brand__logo" />
