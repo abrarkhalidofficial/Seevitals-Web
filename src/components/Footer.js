@@ -29,29 +29,35 @@ export default function Footer() {
         <div className="footer__wrapper__col">
           <div className="footer__wrapper__col__heading">Quick links</div>
           <div className="footer__wrapper__col__content">
-            <a href="#" className="footer__wrapper__col__content__links">
+            <Link to="/" className="footer__wrapper__col__content__links">
               Home
-            </a>
-            <a href="#" className="footer__wrapper__col__content__links">
-              About
-            </a>
-            <a href="#" className="footer__wrapper__col__content__links">
-              Contact
-            </a>
+            </Link>
+            <Link to="/about" className="footer__wrapper__col__content__links">
+              About us
+            </Link>
+            <Link
+              to="/contact"
+              className="footer__wrapper__col__content__links"
+            >
+              Contact us
+            </Link>
           </div>
         </div>
         <div className="footer__wrapper__col">
           <div className="footer__wrapper__col__heading">Pages</div>
           <div className="footer__wrapper__col__content">
-            <a href="#" className="footer__wrapper__col__content__links">
+            <Link to="/" className="footer__wrapper__col__content__links">
               Home
-            </a>
-            <a href="#" className="footer__wrapper__col__content__links">
-              About
-            </a>
-            <a href="#" className="footer__wrapper__col__content__links">
-              Contact
-            </a>
+            </Link>
+            <Link to="/about" className="footer__wrapper__col__content__links">
+              About us
+            </Link>
+            <Link
+              to="/contact"
+              className="footer__wrapper__col__content__links"
+            >
+              Contact us
+            </Link>
           </div>
         </div>
         <div className="footer__wrapper__col">
@@ -107,8 +113,12 @@ export default function Footer() {
           </div>
           <div className="footer__wrapper__col__heading">Mailing list</div>
           <p>Sign up for our mailing list to get latest updates and offers </p>
-          <div className="footer__wrapper__col__form">
-            <input type="text" className="footer__wrapper__col__form__input" />
+          <form action="" className="footer__wrapper__col__form">
+            <input
+              type="text"
+              placeholder="Email...….."
+              className="footer__wrapper__col__form__input"
+            />
             <button className="footer__wrapper__col__form__btn">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +156,7 @@ export default function Footer() {
                 </g>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
       <div className="footer__extension">
