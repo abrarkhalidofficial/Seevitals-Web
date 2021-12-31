@@ -4,14 +4,6 @@ import logo from "../assets/logo.png";
 
 export default function Header() {
   const [isHeaderOpen, setIsHeaderOpen] = useState(true);
-  useEffect(() => {
-    let route = localStorage.getItem("route");
-    console.log(route);
-    function setRoute(route) {
-      document.getElementById(route).checked = true;
-    }
-    setRoute(route);
-  }, []);
 
   useEffect(() => {
     if (window.innerWidth > 800) {
@@ -30,7 +22,17 @@ export default function Header() {
 
   const navigate = useNavigate();
   return (
-    <div className="header">
+    <div
+      className="header"
+      onLoad={() => {
+        let route = localStorage.getItem("route");
+        console.log(route);
+        function setRoute(route) {
+          document.getElementById(route).checked = true;
+        }
+        setRoute(route);
+      }}
+    >
       <div className="header__wrapper">
         <Link
           to="/"
