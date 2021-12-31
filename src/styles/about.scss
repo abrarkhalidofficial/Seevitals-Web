@@ -96,6 +96,84 @@
   align-items: center;
   margin-bottom: 1em;
 }
+.our__vision__container {
+  width: 100%;
+  height: fit-content;
+  min-height: 600px;
+  position: relative;
+}
+.our__vision__container__img {
+  width: 100%;
+  background-size: cover;
+}
+.our__vision__container__overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.our__vision__container__overlay__container {
+  max-width: 1440px;
+  width: 100%;
+  height: fit-content;
+}
+.our__vision__container__overlay__container__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4em 0em;
+}
+.our__vision__container__overlay__container__content__img__card {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.our__vision__container__overlay__container__content__svg svg {
+  height: 380px;
+}
+.our__vision__container__overlay__container__content__text__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+}
+.our__vision__container__overlay__container__content__img {
+  width: 100%;
+  background-size: cover;
+}
+.our__vision__container__overlay__container__content__text__container__content {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.our__vision__container__overlay__container__content__text__container__content:hover {
+  background: $gradientGreen;
+  transition: 300ms ease-in-out;
+}
+.our__vision__container__overlay__container__content__text__container__content:hover
+  .our__vision__container__overlay__container__content__heading,
+.our__vision__container__overlay__container__content__text__container__content:hover
+  .our__vision__container__overlay__container__content__text {
+  color: $whiteText;
+}
+.our__vision__container__overlay__container__content__heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: $darkText;
+  margin-bottom: 0.2em;
+}
+.our__vision__container__overlay__container__content__text {
+  font-size: 14px;
+  color: $darkText;
+}
 @media (max-width: 1360px) {
   .about__us__container__jumbotron__overlay__heading {
     max-width: 70%;
