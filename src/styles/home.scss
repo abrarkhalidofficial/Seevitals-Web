@@ -403,12 +403,13 @@
 .why__choose__us__container {
   width: 100%;
   height: fit-content;
-  min-height: 600px;
+  min-height: 700px;
   position: relative;
 }
 .why__choose__us__bg {
   width: 100%;
   height: 100%;
+  min-height: 800px;
 }
 .why__choose__us__container__wrapper {
   width: 100%;
@@ -428,8 +429,8 @@
   border-radius: 25px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
   height: fit-content;
-  min-height: 500px;
-  padding: 4em;
+  min-height: 400px;
+  padding: 2em 4em;
   background-color: $whiteText;
   display: flex;
   flex-direction: column;
@@ -468,6 +469,9 @@
   margin: 6em 0em;
 }
 @media (max-width: 1250px) {
+  .why__choose__us__container {
+    height: 800px;
+  }
   .why__choose__us__container__content {
     width: 85%;
   }
@@ -526,6 +530,9 @@
   }
 }
 @media (max-width: 800px) {
+  .why__choose__us__container {
+    height: 900px;
+  }
   .addons__container {
     height: 1000px;
   }
@@ -542,6 +549,9 @@
   }
 }
 @media (max-width: 750px) {
+  .why__choose__us__container {
+    height: 1400px;
+  }
   .parameters__container {
     height: 700px;
   }
@@ -554,6 +564,9 @@
   }
 }
 @media (max-width: 700px) {
+  .why__choose__us__container {
+    height: 1800px;
+  }
   .outcomes__container__content__card__svg svg {
     width: 60px;
   }
@@ -643,5 +656,8 @@
   }
   .welcome__container__content__gradiant__content {
     padding: 0em 2em;
+  }
+  .why__choose__us__container {
+    height: 1900px;
   }
 }
