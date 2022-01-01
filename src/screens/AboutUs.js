@@ -79,7 +79,10 @@ export default function AboutUs() {
         <div className="our__vision__container__overlay">
           <div className="our__vision__container__overlay__container">
             <div className="why__choose__us__container__content__heading__container">
-              <div className="why__choose__us__container__content__heading">
+              <div
+                className="why__choose__us__container__content__heading"
+                style={{ color: "#4AB493" }}
+              >
                 Our Vision
               </div>
               <div className="why__choose__us__container__content__border">

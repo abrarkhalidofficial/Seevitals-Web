@@ -189,16 +189,35 @@
   .our__story__container__overlay__heading {
     display: none;
   }
+  .our__vision__container {
+    margin-bottom: 5em;
+    height: 800px;
+  }
+  .our__vision__container__overlay__container__content {
+    flex-direction: column;
+    margin-top: -1em;
+  }
+  .our__vision__container__overlay__container__content__svg {
+    display: none;
+  }
+  .our__vision__container__overlay__container__content__text__container {
+    max-width: 100%;
+    flex-direction: row;
+    padding: 0em 2em;
+  }
 }
 @media (max-width: 650px) {
   .our__story__container {
-    height: 700px;
+    height: 900px;
+  }
+  .our__story__container__overlay {
+    position: relative;
+  }
+  .our__vision__container__overlay__container__content__text__container {
+    flex-direction: column;
   }
 }
 @media (max-width: 500px) {
-  .our__story__container {
-    height: 800px;
-  }
   .about__us__container__jumbotron__overlay__heading {
     max-width: 95%;
   }
@@ -213,5 +232,11 @@
   }
   .about__us__container__jumbotron__overlay__para {
     font-size: 18px;
+  }
+  .our__story__container {
+    height: 1350px;
+  }
+  .our__vision__container__overlay__container__content__text__container {
+    height: 1000px;
   }
 }
