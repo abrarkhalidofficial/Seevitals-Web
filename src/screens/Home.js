@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import main__background__img from "../assets/main__background__img.png";
 import main__illustration from "../assets/main__illustration.png";
 import productSvgInactive from "../assets/productSvgInactive.svg";
@@ -38,6 +38,55 @@ import historyActive from "../assets/outcomesSectionSvg/historyActive.svg";
 import easeInactive from "../assets/outcomesSectionSvg/easeInactive.svg";
 import easeActive from "../assets/outcomesSectionSvg/easeActive.svg";
 
+function ServicesCard({ img, hoverImg, text }) {
+  const [hovered, setHovered] = useState(false);
+  return (
+    <div
+      className="new__services__container__content__card"
+      onMouseOver={() => {
+        setHovered(true);
+      }}
+      onMouseOut={() => {
+        setHovered(false);
+      }}
+    >
+      <img
+        src={hovered ? hoverImg : img}
+        alt="services img"
+        className="new__services__container__content__card__img"
+      />
+
+      <div className="new__services__container__content__card__content">
+        {text}
+      </div>
+    </div>
+  );
+}
+function AddonsCard({ img, hoverImg, text }) {
+  const [hovered, setHovered] = useState(false);
+  return (
+    <div
+      className="new__addons__container__content__card"
+      onMouseOver={() => {
+        setHovered(true);
+      }}
+      onMouseOut={() => {
+        setHovered(false);
+      }}
+    >
+      <img
+        src={hovered ? hoverImg : img}
+        alt="addons img"
+        className="new__addons__container__content__card__img"
+      />
+
+      <div className="new__addons__container__content__card__content">
+        {text}
+      </div>
+    </div>
+  );
+}
+
 export default function Home() {
   return (
     <>
@@ -61,131 +110,55 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <div className="services__container">
-        <div className="services__container__content">
-          <div className="addons__container__content__heading">Services</div>
-          <div className="services__container__cards__container">
-            <div className="services__container__card__wrapper">
-              <img
-                src={healthSvgInactive}
-                alt="healthSvgInactive"
-                className="services__container__card__wrapper__svg"
-              />
-              <img
-                src={healthSvgActive}
-                alt="healthSvgActive"
-                className="services__container__card__wrapper__svg__hover"
-              />
-              <div className="services__container__card__text">
-                <span>Customized</span> Health Tech Solutions
-              </div>
-            </div>
-            <div className="services__container__card__wrapper">
-              <img
-                src={productSvgInactive}
-                alt="productSvgInactive"
-                className="services__container__card__wrapper__svg"
-              />
-              <img
-                src={productSvgActive}
-                alt="productSvgInactive"
-                className="services__container__card__wrapper__svg__hover"
-              />
-              <div className="services__container__card__text">
-                <span>Product</span>Development
-              </div>
-            </div>
-            <div className="services__container__card__wrapper">
-              <img
-                src={consultationsSvgInactive}
-                alt="consultationsSvgInactive"
-                className="services__container__card__wrapper__svg"
-              />
-              <img
-                src={consultationsSvgActive}
-                alt="consultationsSvgActive "
-                className="services__container__card__wrapper__svg__hover"
-              />
-              <div className="services__container__card__text">
-                <span>Technical</span>Consultations
-              </div>
-            </div>
-            <div className="services__container__card__wrapper">
-              <img
-                src={remoteSvgInactive}
-                alt="remoteSvgInactive"
-                className="services__container__card__wrapper__svg"
-              />
-              <img
-                src={remoteSvgActive}
-                alt="remoteSvgActive"
-                className="services__container__card__wrapper__svg__hover"
-              />
-              <div className="services__container__card__text">
-                <span>Remote</span>
-                Patient Monitoring
-              </div>
-            </div>
-          </div>
+      <div className="new__services__container">
+        <div className="new__services__container__heading">Services</div>
+        <div className="new__services__container__content">
+          <ServicesCard
+            img={healthSvgInactive}
+            hoverImg={healthSvgActive}
+            text="Customized Health Tech Solutions"
+          />
+          <ServicesCard
+            img={productSvgInactive}
+            hoverImg={productSvgActive}
+            text="Product Development"
+          />
+          <ServicesCard
+            img={consultationsSvgInactive}
+            hoverImg={consultationsSvgActive}
+            text="Technical Consultations"
+          />
+          <ServicesCard
+            img={remoteSvgInactive}
+            hoverImg={remoteSvgActive}
+            text="Remote Patient Monitoring"
+          />
         </div>
       </div>
-      <div className="addons__container">
+      <div className="new__addons__container">
         <img
           src={AddonSectionBg}
-          alt="addons__container__img"
-          className="addons__container__img"
+          alt="AddonSectionBg"
+          className="new__addons__container__img"
         />
-        <div className="addons__container__content">
-          <div className="addons__container__content__heading">
-            Value Addons
-          </div>
-          <div className="addons__container__content__cards">
-            <div className="addons__container__content__card">
-              <img
-                src={TrendSvg}
-                alt="TrendSvg"
-                className="addons__container__content__card__svg"
-              />
-              <img
-                src={TrendSvg}
-                alt="TrendSvg"
-                className="addons__container__content__card__svg__hover"
-              />
-              <div className="addons__container__content__card__text">
-                Health Trends
-              </div>
-            </div>
-            <div className="addons__container__content__card">
-              <img
-                src={apiSvg}
-                alt="apiSvg"
-                className="addons__container__content__card__svg"
-              />
-              <img
-                src={apiSvg}
-                alt="apiSvg"
-                className="addons__container__content__card__svg__hover"
-              />
-              <div className="addons__container__content__card__text">
-                Integration with HIMS with API & SDK
-              </div>
-            </div>
-            <div className="addons__container__content__card">
-              <img
-                src={patientSaftySvg}
-                alt="patientSaftySvg"
-                className="addons__container__content__card__svg"
-              />
-              <img
-                src={patientSaftySvg}
-                alt="patientSaftySvg"
-                className="addons__container__content__card__svg__hover"
-              />
-              <div className="addons__container__content__card__text">
-                Improved Patient Safety with DEWS
-              </div>
-            </div>
+        <div className="new__addons__container__overlay">
+          <div className="new__addons__container__heading">VALUE ADDONS</div>
+          <div className="new__addons__container__content">
+            <AddonsCard
+              img={TrendSvg}
+              hoverImg={TrendSvg}
+              text="Health Trends"
+            />
+            <AddonsCard
+              img={apiSvg}
+              hoverImg={apiSvg}
+              text="Integration with HIMS with API & SDK"
+            />
+            <AddonsCard
+              img={patientSaftySvg}
+              hoverImg={patientSaftySvg}
+              text="Improved Patient Safety with DEWS"
+            />
           </div>
         </div>
       </div>
@@ -1442,6 +1415,70 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* <div className="addons__container">
+        <img
+          src={AddonSectionBg}
+          alt="addons__container__img"
+          className="addons__container__img"
+        />
+        <div className="addons__container__content">
+          <div className="addons__container__content__heading">
+            Value Addons
+          </div>
+          <div className="addons__container__content__cards">
+            <div className="addons__container__content__card">
+              <img
+                src={TrendSvg}
+                alt="TrendSvg"
+                className="addons__container__content__card__svg"
+              />
+              <img
+                src={TrendSvg}
+                alt="TrendSvg"
+                className="addons__container__content__card__svg__hover"
+              />
+              <div className="addons__container__content__card__text">
+                Health Trends
+              </div>
+            </div>
+            <div className="addons__container__content__card">
+              <img
+                src={apiSvg}
+                alt="apiSvg"
+                className="addons__container__content__card__svg"
+              />
+              <img
+                src={apiSvg}
+                alt="apiSvg"
+                className="addons__container__content__card__svg__hover"
+              />
+              <div className="addons__container__content__card__text">
+                Integration with HIMS with API & SDK
+              </div>
+            </div>
+            <div className="addons__container__content__card">
+              <img
+                src={patientSaftySvg}
+                alt="patientSaftySvg"
+                className="addons__container__content__card__svg"
+              />
+              <img
+                src={patientSaftySvg}
+                alt="patientSaftySvg"
+                className="addons__container__content__card__svg__hover"
+              />
+              <div className="addons__container__content__card__text">
+                Improved Patient Safety with DEWS
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+       */}
     </>
   );
 }

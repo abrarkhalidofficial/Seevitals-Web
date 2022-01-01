@@ -400,6 +400,9 @@ body {
   }
 }
 @media (max-width: 750px) {
+  .footer__container__overlay__specialist {
+    margin-top: 12em;
+  }
   .footer__container__overlay__specialist__wrapper {
     flex-direction: column;
   }
@@ -407,9 +410,18 @@ body {
     width: 90%;
   }
   .footer__container {
-    height: 1100px;
+    height: 1200px;
   }
   .footer__container__overlay__specialist__card__socials__container {
     width: 40%;
+  }
+}
+@media (max-width: 650px) {
+  .footer__container__overlay__specialist {
+    margin-top: 14em;
+  }
+
+  .footer__container {
+    height: 1300px;
   }
 }
