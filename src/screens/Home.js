@@ -907,7 +907,10 @@ export default function Home() {
         <div className="why__choose__us__container__wrapper">
           <div className="why__choose__us__container__content">
             <div className="why__choose__us__container__content__heading__container">
-              <div className="why__choose__us__container__content__heading">
+              <div
+                className="why__choose__us__container__content__heading"
+                style={{ color: "#4AB493" }}
+              >
                 Why choose us
               </div>
               <div className="why__choose__us__container__content__border">

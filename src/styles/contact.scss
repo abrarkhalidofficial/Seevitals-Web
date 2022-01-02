@@ -200,10 +200,14 @@
 }
 @media (max-width: 700px) {
   .contact__container__jumbotron {
-    height: 300px;
+    height: 500px;
   }
+
   .contact__container__form__content__right {
     padding: 0em 2em;
+  }
+  .contact__container__jumbotron__img {
+    width: 300%;
   }
 }
 @media (max-width: 650px) {
