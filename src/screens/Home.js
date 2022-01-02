@@ -59,6 +59,11 @@ function ServicesCard({ img, hoverImg, text }) {
       <div className="new__services__container__content__card__content">
         {text}
       </div>
+      <div className="new__services__container__content__card__info">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+        itaque minus asperiores atque suscipit rem recusandae officiis eius
+        dignissimos velit quia, alias, harum molestiae consectetur!
+      </div>
     </div>
   );
 }
