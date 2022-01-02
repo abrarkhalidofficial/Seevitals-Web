@@ -4,6 +4,7 @@
   align-items: center;
   height: 700px;
   width: 100%;
+  overflow: hidden;
   position: relative;
 }
 .about__us__container__jumbotron__main__bg {
@@ -104,7 +105,6 @@
 }
 .our__vision__container__img {
   width: 100%;
-  background-size: cover;
 }
 .our__vision__container__overlay {
   position: absolute;
@@ -145,7 +145,7 @@
 }
 .our__vision__container__overlay__container__content__img {
   width: 100%;
-  background-size: cover;
+  border-radius: 25px;
 }
 .our__vision__container__overlay__container__content__text__container__content {
   display: flex;
