@@ -37,6 +37,9 @@ import historyInactive from "../assets/outcomesSectionSvg/historyInactive.svg";
 import historyActive from "../assets/outcomesSectionSvg/historyActive.svg";
 import easeInactive from "../assets/outcomesSectionSvg/easeInactive.svg";
 import easeActive from "../assets/outcomesSectionSvg/easeActive.svg";
+import why__choose__us__container__content__card__svg1 from "../assets/why__choose__us__container__content__card__svg1.png";
+import why__choose__us__container__content__card__svg2 from "../assets/why__choose__us__container__content__card__svg2.png";
+import why__choose__us__container__content__card__svg3 from "../assets/why__choose__us__container__content__card__svg3.png";
 
 function ServicesCard({ img, hoverImg, text }) {
   const [hovered, setHovered] = useState(false);
@@ -977,34 +980,11 @@ export default function Home() {
             </div>
             <div className="why__choose__us__container__content__wrapper">
               <div className="why__choose__us__container__content__card">
-                <div className="why__choose__us__container__content__card__svg">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="47.525"
-                    height="47.525"
-                    viewBox="0 0 47.525 47.525"
-                  >
-                    <defs>
-                      <linearGradient
-                        id="linear-gradient"
-                        x1="0.5"
-                        x2="0.5"
-                        y2="1"
-                        gradientUnits="objectBoundingBox"
-                      >
-                        <stop offset="0" stop-color="#0d645d" />
-                        <stop offset="1" stop-color="#4ab493" />
-                      </linearGradient>
-                    </defs>
-                    <path
-                      id="Icon_material-local-hospital"
-                      data-name="Icon material-local-hospital"
-                      d="M46.745,4.5H9.781A5.274,5.274,0,0,0,4.526,9.781L4.5,46.745a5.3,5.3,0,0,0,5.281,5.281H46.745a5.3,5.3,0,0,0,5.281-5.281V9.781A5.3,5.3,0,0,0,46.745,4.5ZM44.1,33.543H33.543V44.1H22.982V33.543H12.421V22.982H22.982V12.421H33.543V22.982H44.1Z"
-                      transform="translate(-4.5 -4.5)"
-                      fill="url(#linear-gradient)"
-                    />
-                  </svg>
-                </div>
+                <img
+                  src={why__choose__us__container__content__card__svg1}
+                  alt="why__choose__us__container__content__card__svg"
+                  className="why__choose__us__container__content__card__svg"
+                />
                 <div className="why__choose__us__container__content__card__heading">
                   Benefits to Hospitals
                 </div>
@@ -1020,56 +1000,12 @@ export default function Home() {
               </div>
 
               <div className="why__choose__us__container__content__card">
-                <div className="why__choose__us__container__content__card__svg">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="51.87"
-                    height="58.671"
-                    viewBox="0 0 51.87 58.671"
-                  >
-                    <defs>
-                      <linearGradient
-                        id="linear-gradient"
-                        x1="0.5"
-                        x2="0.5"
-                        y2="1"
-                        gradientUnits="objectBoundingBox"
-                      >
-                        <stop offset="0" stop-color="#0d645d" />
-                        <stop offset="1" stop-color="#4ab493" />
-                      </linearGradient>
-                      <clipPath id="clip-path">
-                        <rect
-                          id="Rectangle_69"
-                          data-name="Rectangle 69"
-                          width="51.87"
-                          height="58.671"
-                          fill="url(#linear-gradient)"
-                        />
-                      </clipPath>
-                    </defs>
-                    <g
-                      id="Group_1747"
-                      data-name="Group 1747"
-                      clip-path="url(#clip-path)"
-                    >
-                      <path
-                        id="Path_4804"
-                        data-name="Path 4804"
-                        d="M21.532,118.7c-2.194-.4-4.413-.7-6.577-1.23a24.883,24.883,0,0,1-13.834-8.238,3.921,3.921,0,0,1-1.03-3.564C2.123,95.574,8.062,88.9,17.725,85.132l7.957,14.8,8.355-14.76a26.164,26.164,0,0,1,14.525,11.75,24.5,24.5,0,0,1,3.3,9.759,2.7,2.7,0,0,1-.534,1.7c-3.58,4.955-8.619,7.658-14.416,9.085-2.162.532-4.382.829-6.576,1.232Zm20.561-16.564c-2.447.745-2.665-.849-2.613-2.463H37.474c-.049.834-.093,1.6-.142,2.425l-2.418.189v1.972l2.439.144c.04.867.078,1.669.114,2.444h2.053c.059-.853.112-1.616.169-2.437l2.405-.16Z"
-                        transform="translate(0 -60.031)"
-                        fill="url(#linear-gradient)"
-                      />
-                      <path
-                        id="Path_4805"
-                        data-name="Path 4805"
-                        d="M57.808,0A12.6,12.6,0,1,1,45.214,12.548,12.555,12.555,0,0,1,57.808,0"
-                        transform="translate(-31.883 0)"
-                        fill="url(#linear-gradient)"
-                      />
-                    </g>
-                  </svg>
-                </div>
+                <img
+                  src={why__choose__us__container__content__card__svg2}
+                  alt="why__choose__us__container__content__card__svg"
+                  className="why__choose__us__container__content__card__svg"
+                />
+
                 <div className="why__choose__us__container__content__card__heading">
                   Benefits to Patients
                 </div>
@@ -1082,65 +1018,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="why__choose__us__container__content__card">
-                <div className="why__choose__us__container__content__card__svg">
-                  <svg
-                    id="Group_1750"
-                    data-name="Group 1750"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="50.736"
-                    height="56.427"
-                    viewBox="0 0 50.736 56.427"
-                  >
-                    <defs>
-                      <linearGradient
-                        id="linear-gradient"
-                        x1="0.5"
-                        x2="0.5"
-                        y2="1"
-                        gradientUnits="objectBoundingBox"
-                      >
-                        <stop offset="0" stop-color="#0d645d" />
-                        <stop offset="1" stop-color="#4ab493" />
-                      </linearGradient>
-                      <clipPath id="clip-path">
-                        <rect
-                          id="Rectangle_70"
-                          data-name="Rectangle 70"
-                          width="50.736"
-                          height="56.427"
-                          fill="url(#linear-gradient)"
-                        />
-                      </clipPath>
-                    </defs>
-                    <g
-                      id="Group_1749"
-                      data-name="Group 1749"
-                      clip-path="url(#clip-path)"
-                    >
-                      <path
-                        id="Path_4806"
-                        data-name="Path 4806"
-                        d="M11.149,120.283A9.979,9.979,0,0,0,8.1,126.314a2.616,2.616,0,0,1-1.28,1.523c-3.264,1.9-4.336,8.2-3.7,10.915.375,1.61,3.034,2.787,4.444,1.96a1.4,1.4,0,0,0,.592-1.151,1.576,1.576,0,0,0-.95-1,7.185,7.185,0,0,0-1.905-.044c-1.017-3.331.826-6.385,2.9-8.275.979-.889,1.865-.177,2.569.613,2.007,2.249,2.626,4.322,2.236,7.648a4.92,4.92,0,0,0-1.709.044c-.5.2-.867.748-1.291,1.144.435.391.831,1.063,1.31,1.127,2.549.344,3.99-.872,3.859-3.418a20.519,20.519,0,0,0-.986-5.97,9.874,9.874,0,0,0-2.881-3.569c-1-.89-1.47-1.7-.992-2.988a6.566,6.566,0,0,1,4.015-4.165c.319-.115.974-.061,1.087.136,1.8,3.141,4.639,5.259,7.3,7.553.822.708,1.7,1.353,2.663,2.117,3.363-2.674,6.838-5.214,9.374-8.753a1.233,1.233,0,0,1,1.723-.523,6.471,6.471,0,0,1,4.444,5.448c-1.871.812-3.082,2.044-3.03,4.165a4.053,4.053,0,0,0,7.9,1.192,3.843,3.843,0,0,0-1.813-4.791,2.421,2.421,0,0,1-1.407-1.934,8.413,8.413,0,0,0-3.359-4.839c3.486-.735,8.045,1.62,9.7,4.988a20.778,20.778,0,0,1,1.751,7.826c.088,1.212.073,2.434.059,3.651-.052,4.856-2.362,7.455-7.21,8.08a29.939,29.939,0,0,1-3.763.287c-9.827.018-19.654.039-29.48-.038a21.666,21.666,0,0,1-5.126-.768,6.325,6.325,0,0,1-5-5.972,29.537,29.537,0,0,1,.872-10.855c1.276-4.434,3.939-6.647,8.547-7.172.429-.049.855-.12,1.582-.224m24.7,20.261c.857-1.127,2.633.586,2.733-1.525.028-.6.128-1.605-.135-1.73a9.576,9.576,0,0,0-2.518-.507c-.146-.874,0-2.1-.516-2.515-.542-.437-1.709-.1-2.7-.1-.051.933-.1,1.815-.155,2.834h-2.8c.063,1.047-.2,2.222.265,2.756.438.5,1.652.324,2.459.436.588.947-.818,2.95,1.669,2.731,1.4-.123,1.4-.021,1.7-2.383"
-                        transform="translate(0 -88.901)"
-                        fill="url(#linear-gradient)"
-                      />
-                      <path
-                        id="Path_4807"
-                        data-name="Path 4807"
-                        d="M43.786,14.067C43.659,6,50.273-.283,58.578.01A13.836,13.836,0,0,1,71.635,15.067a23.364,23.364,0,0,1-7,15.009c-4.34,4.264-9.452,4.19-13.836-.05a24.593,24.593,0,0,1-7.009-15.959"
-                        transform="translate(-32.361 0)"
-                        fill="url(#linear-gradient)"
-                      />
-                      <path
-                        id="Path_4808"
-                        data-name="Path 4808"
-                        d="M157.308,155.082a1.9,1.9,0,1,1-1.854-1.934,1.916,1.916,0,0,1,1.854,1.934"
-                        transform="translate(-113.46 -113.192)"
-                        fill="url(#linear-gradient)"
-                      />
-                    </g>
-                  </svg>
-                </div>
+                <img
+                  src={why__choose__us__container__content__card__svg3}
+                  alt="why__choose__us__container__content__card__svg"
+                  className="why__choose__us__container__content__card__svg"
+                />
                 <div className="why__choose__us__container__content__card__heading">
                   Benefits to healthcare staff
                 </div>
