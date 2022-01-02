@@ -216,6 +216,15 @@
   .our__vision__container__overlay__container__content__text__container {
     flex-direction: column;
   }
+  .about__us__container__jumbotron__main__bg {
+    display: none;
+  }
+  .our__story__container__img {
+    display: none;
+  }
+  .about__us__container__jumbotron__overlay__heading {
+    font-size: 20px;
+  }
 }
 @media (max-width: 500px) {
   .about__us__container__jumbotron__overlay__heading {
@@ -234,7 +243,7 @@
     font-size: 18px;
   }
   .our__story__container {
-    height: 1350px;
+    height: 1050px;
   }
   .our__vision__container__overlay__container__content__text__container {
     height: 1000px;
