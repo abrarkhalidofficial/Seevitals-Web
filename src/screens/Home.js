@@ -1125,7 +1125,7 @@ export default function Home() {
                   CEO | BDS | MS-HMI | Dentist | Health Policy
                 </div>
                 <div className="footer__container__overlay__specialist__card__socials__container">
-                  <a href="">
+                  <a href="https://www.facebook.com/CuriousniQ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13.636"
@@ -1157,7 +1157,7 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="">
+                  <a href="https://www.instagram.com/nowhykyun/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24.183"
@@ -1189,7 +1189,7 @@ export default function Home() {
                   COO | MBBS | MS-HMI | Doctor | Healthcare Operations
                 </div>
                 <div className="footer__container__overlay__specialist__card__socials__container">
-                  <a href="">
+                  <a href="https://www.facebook.com/aimonmalik">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13.636"
@@ -1205,7 +1205,7 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="https://www.linkedin.com/in/draimonmalik">
+                  <a href="https://www.linkedin.com/in/draimonmalik/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21.16"
@@ -1221,7 +1221,7 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="">
+                  <a href="https://www.instagram.com/wakhrastagram/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24.183"
@@ -1254,7 +1254,7 @@ export default function Home() {
                   CTO | CS | MS-TME | Founder & CEO DSME Global
                 </div>
                 <div className="footer__container__overlay__specialist__card__socials__container">
-                  <a href="">
+                  <a href="https://www.facebook.com/dayyanshahid/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13.636"
@@ -1286,7 +1286,7 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="">
+                  <a href="https://www.instagram.com/dayyanshahid/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24.183"

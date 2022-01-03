@@ -103,7 +103,7 @@ export default function Contact() {
               </div>
               <div className="contact__container__form__content__right__links">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/dayyanshahid/"
                   className="contact__container__form__content__right__links__link"
                 >
                   <svg
@@ -122,7 +122,7 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/seevitals"
                   className="contact__container__form__content__right__links__link"
                 >
                   <svg
@@ -141,7 +141,7 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/see_vitals/"
                   className="contact__container__form__content__right__links__link"
                 >
                   <svg

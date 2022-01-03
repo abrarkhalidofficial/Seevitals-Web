@@ -63,7 +63,10 @@ export default function Footer() {
         <div className="footer__wrapper__col">
           <div className="footer__wrapper__col__heading">Follow us</div>
           <div className="footer__wrapper__col__links">
-            <a href="#" className="footer__wrapper__col__links__link">
+            <a
+              href="https://www.facebook.com/dayyanshahid/"
+              className="footer__wrapper__col__links__link"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="13.636"
@@ -79,7 +82,10 @@ export default function Footer() {
                 />
               </svg>
             </a>
-            <a href="#" className="footer__wrapper__col__links__link">
+            <a
+              href="https://www.linkedin.com/company/seevitals"
+              className="footer__wrapper__col__links__link"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="21.16"
@@ -95,7 +101,10 @@ export default function Footer() {
                 />
               </svg>
             </a>
-            <a href="#" className="footer__wrapper__col__links__link">
+            <a
+              href="https://www.instagram.com/see_vitals/"
+              className="footer__wrapper__col__links__link"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24.183"
