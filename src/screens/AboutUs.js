@@ -41,7 +41,7 @@ export default function AboutUs() {
                 <div className="our__story__container__overlay__content__para__heading">
                   Our Story
                 </div>
-                SeeVITALS Technologies is an ambitious project brought to life
+                SEEVITALS Technologies is an ambitious project brought to life
                 by 3 friends that have recognized the dire need of technological
                 interventions in the healthcare industry. 2 doctors having
                 worked in numerous healthcare setups from around the world
@@ -321,47 +321,32 @@ export default function AboutUs() {
               <div className="our__vision__container__overlay__container__content__text__container">
                 <div className="our__vision__container__overlay__container__content__text__container__content">
                   <div className="our__vision__container__overlay__container__content__heading">
-                    Heading
+                    Mission
                   </div>
                   <div className="our__vision__container__overlay__container__content__text">
-                    We strive to excel in services aimed towards revolutionizing
-                    healthcare operations through integrated solutions in
-                    technology and consultation. We hope to achieve this through
-                    streamlining hospital management and empowering our
-                    healthcare workers to perform at their greatest to serve our
-                    patients quality healthcare. The ultimate motivation lies in
-                    the progress of public health and public health access that
-                    will eventually contribute to the betterment of society.
+                    Intervention at an earlier stage to provide better
+                    lifestyles and healthier outcomes by introducing AI-
+                    generated risk alert system.
                   </div>
                 </div>
                 <div className="our__vision__container__overlay__container__content__text__container__content">
                   <div className="our__vision__container__overlay__container__content__heading">
-                    Heading
+                    Vision
                   </div>
                   <div className="our__vision__container__overlay__container__content__text">
-                    Timesaving, cost-saving, and patient-saving. Our solutions
-                    are the umbrella under which a hospital can operate
-                    efficiently and allow your patients to experience the
-                    highest level of patient care through integrated
-                    technologies there is to offer in Pakistan. our services
-                    stretch beyond a sales invoice and a huge part of our
-                    customized solutions involve redesigning them to your needs
-                    so we are always in touch.
+                    Revolutionize how the data is monitored in Pakistan and used
+                    to generate early warning systems for the patients
+                    decreasing the morbidity and mortality rates by early
+                    interventions.
                   </div>
                 </div>
                 <div className="our__vision__container__overlay__container__content__text__container__content">
                   <div className="our__vision__container__overlay__container__content__heading">
-                    Heading
+                    Value Proposition
                   </div>
                   <div className="our__vision__container__overlay__container__content__text">
-                    Timesaving, cost-saving, and patient-saving. Our solutions
-                    are the umbrella under which a hospital can operate
-                    efficiently and allow your patients to experience the
-                    highest level of patient care through integrated
-                    technologies there is to offer in Pakistan. our services
-                    stretch beyond a sales invoice and a huge part of our
-                    customized solutions involve redesigning them to your needs
-                    so we are always in touch.
+                    Contactless continuous remote patient monitoring with an AI-
+                    enabled early risk assessment.
                   </div>
                 </div>
               </div>

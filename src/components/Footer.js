@@ -16,10 +16,10 @@ export default function Footer() {
             <img src={logo} className="brand__logo" />
           </Link>
           <p>
-            Seevitals is a remote patient monitoring system solution, with
+            SEEVITALS is a remote patient monitoring system solution, with
             integrated hardware and software. The product will be easily
             integrated with the existing screens and the beds in the hospitals,
-            home care services, ambulances, and more. Seevitals is
+            home care services, ambulances, and more. SEEVITALS is
             revolutionizing how the data is monitored, stored, accessed, and
             used to generate early alert systems for the patients and the
             healthcare staff, decreasing the morbidity and mortality rates by
@@ -50,7 +50,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer__wrapper__col">
-          <div className="footer__wrapper__col__heading">Pages</div>
+          <div className="footer__wrapper__col__heading">Quick Links</div>
           <div className="footer__wrapper__col__content">
             <Link to="/" className="footer__wrapper__col__content__links">
               Home
@@ -89,7 +89,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/company/seevitals"
+              href="https://www.linkedin.com/company/SEEVITALS"
               className="footer__wrapper__col__links__link"
             >
               <svg
@@ -176,7 +176,7 @@ export default function Footer() {
       </div>
       <div className="footer__extension">
         <div className="footer__extension__wrapper">
-          Copyright 2021 | All Right Reserved
+          Copyright 2021 | All Right Reserved Developed by seevitals solutions
         </div>
       </div>
     </div>

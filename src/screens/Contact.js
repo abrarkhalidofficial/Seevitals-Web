@@ -21,11 +21,17 @@ export default function Contact() {
       </div>
       <div className="contact__container__form__wrapper">
         <div className="contact__container__form">
-          <div className="contact__container__form__header">
-            <div className="contact__container__form__header__left">
+          <div
+            className="contact__container__form__header"
+            style={{ padding: 0, background: "transparent" }}
+          >
+            <div className="contact__container__form__header contact__container__form__header__right">
               Get in Touch
             </div>
-            <div className="contact__container__form__header__right">
+            <div
+              className="contact__container__form__header "
+              style={{ marginLeft: 20 }}
+            >
               Contact info
             </div>
           </div>
@@ -109,6 +115,12 @@ export default function Contact() {
                 >
                   +92-321-9652222
                 </a>
+                <a
+                  href="tel:+923224850116"
+                  className="contact__container__form__content__right__entry"
+                >
+                  +92-322-4850116
+                </a>
               </div>
               <div className="contact__container__form__content__right__links">
                 <a
@@ -131,7 +143,7 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/seevitals"
+                  href="https://www.linkedin.com/company/SEEVITALS"
                   className="contact__container__form__content__right__links__link"
                 >
                   <svg
@@ -172,6 +184,19 @@ export default function Contact() {
           </form>
         </div>
       </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.8063797301484!2d74.37747681513622!3d31.47451195655429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391907a286809427%3A0x66f8b31237e79ada!2sDSME%20Global%20Links!5e0!3m2!1sen!2s!4v1641231619165!5m2!1sen!2s"
+        style={{
+          border: "none",
+          width: "100%",
+          maxWidth: 1440,
+          height: 500,
+          margin: "0em auto",
+          borderRadius: 10,
+        }}
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
     </div>
     // <div className="main__container">
     //   <section class="hero__section">
