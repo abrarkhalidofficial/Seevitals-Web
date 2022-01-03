@@ -20,12 +20,12 @@ export default function AboutUs() {
             className="about__illustration"
           />
           <div className="about__us__container__jumbotron__overlay__heading">
-            We Want to See you <span>Technology </span>in
+            Leading Health Tech Innovation <span>Technology </span>in
             <span> Healthcare</span>
           </div>
-          <div className="about__us__container__jumbotron__overlay__para">
+          {/* <div className="about__us__container__jumbotron__overlay__para">
             Like You've Never Seen
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="our__story__container">

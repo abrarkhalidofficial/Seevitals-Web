@@ -124,7 +124,7 @@ export default function Contact() {
               </div>
               <div className="contact__container__form__content__right__links">
                 <a
-                  href="https://www.facebook.com/dayyanshahid/"
+                  href="https://www.facebook.com/Seevitals-109009611658345/"
                   className="contact__container__form__content__right__links__link"
                 >
                   <svg

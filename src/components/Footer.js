@@ -97,7 +97,7 @@ export default function Footer() {
           <div className="footer__wrapper__col__heading">Follow us</div>
           <div className="footer__wrapper__col__links">
             <a
-              href="https://www.facebook.com/dayyanshahid/"
+              href="https://www.facebook.com/Seevitals-109009611658345/"
               className="footer__wrapper__col__links__link"
             >
               <svg

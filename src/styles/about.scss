@@ -27,7 +27,7 @@
   color: $darkText;
   font-weight: 600;
   margin-bottom: 0.2em;
-  max-width: 30%;
+  max-width: 40%;
   text-align: center;
 }
 .about__us__container__jumbotron__overlay__heading span {
@@ -137,7 +137,7 @@
   background-color: #ffffff;
 }
 .our__vision__container__overlay__container__content__svg svg {
-  height: 380px;
+  height: 300px;
 }
 .our__vision__container__overlay__container__content__text__container {
   display: flex;
@@ -151,7 +151,7 @@
 .our__vision__container__overlay__container__content__text__container__content {
   display: flex;
   flex-direction: column;
-  padding: 1em;
+  padding: 1.5em 1em;
   border-radius: 20px;
   cursor: pointer;
 }
@@ -257,8 +257,18 @@
   }
   .our__vision__container__overlay__container__content__text__container {
     height: 1000px;
+    width: 100%;
+  }
+  .our__vision__container__overlay__container__content__img {
+    width: 280px;
+  }
+  .why__choose__us__container__content__heading__container {
+    margin-top: 14em;
   }
   .our__story__container__overlay__content__para {
     margin: 2em;
+  }
+  .our__vision__container__overlay__container__content__text__container__content {
+    padding: 1em;
   }
 }
