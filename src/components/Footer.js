@@ -27,20 +27,26 @@ export default function Footer() {
           </p>
         </div>
         <div className="footer__wrapper__col">
-          <div className="footer__wrapper__col__heading">Quick links</div>
+          <div className="footer__wrapper__col__heading">Contact Us</div>
           <div className="footer__wrapper__col__content">
-            <Link to="/" className="footer__wrapper__col__content__links">
-              Home
-            </Link>
-            <Link to="/about" className="footer__wrapper__col__content__links">
-              About us
-            </Link>
-            <Link
-              to="/contact"
+            <a
+              href="mailto:info@seevitals.com"
               className="footer__wrapper__col__content__links"
             >
-              Contact us
-            </Link>
+              info@seevitals.com
+            </a>
+            <a
+              href="tel:+923451591251"
+              className="footer__wrapper__col__content__links"
+            >
+              +92 345 1591251
+            </a>
+            <a
+              href="tel:+923219652222"
+              className="footer__wrapper__col__content__links"
+            >
+              +92 321 9652222
+            </a>
           </div>
         </div>
         <div className="footer__wrapper__col">

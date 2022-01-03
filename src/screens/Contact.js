@@ -75,9 +75,12 @@ export default function Contact() {
                 <div className="contact__container__form__content__right__heading">
                   Email
                 </div>
-                <div className="contact__container__form__content__right__entry">
+                <a
+                  href="mailto:info@seevitals.com"
+                  className="contact__container__form__content__right__entry"
+                >
                   info@seevitals.com
-                </div>
+                </a>
               </div>
               <div className="contact__container__form__content__right__data">
                 <div className="contact__container__form__content__right__heading">
@@ -94,12 +97,18 @@ export default function Contact() {
                 <div className="contact__container__form__content__right__heading">
                   Phone
                 </div>
-                <div className="contact__container__form__content__right__entry">
+                <a
+                  href="tel:+923451591251"
+                  className="contact__container__form__content__right__entry"
+                >
                   +92-345-1591251
-                </div>
-                <div className="contact__container__form__content__right__entry">
+                </a>
+                <a
+                  href="tel:+923219652222"
+                  className="contact__container__form__content__right__entry"
+                >
                   +92-321-9652222
-                </div>
+                </a>
               </div>
               <div className="contact__container__form__content__right__links">
                 <a
