@@ -19,6 +19,15 @@ export default function Header() {
       }
     });
   }, []);
+  useEffect(() => {
+    if (window.location.pathname === "/") {
+      document.getElementById("home").checked = true;
+    } else if (window.location.pathname === "/about") {
+      document.getElementById("about").checked = true;
+    } else if (window.location.pathname === "/contact") {
+      document.getElementById("contact").checked = true;
+    }
+  }, [window.location.pathname]);
 
   const navigate = useNavigate();
   return (
@@ -95,6 +104,11 @@ export default function Header() {
                 onClick={() => {
                   navigate("/");
                   localStorage.setItem("route", "home");
+                  window.scroll({
+                    top: 0,
+                    left: 0,
+                    behavior: "smooth",
+                  });
                 }}
               />
               <div className="nav__link__content">Home</div>
@@ -108,6 +122,11 @@ export default function Header() {
                 onClick={() => {
                   navigate("/about");
                   localStorage.setItem("route", "about");
+                  window.scroll({
+                    top: 0,
+                    left: 0,
+                    behavior: "smooth",
+                  });
                 }}
               />
               <div className="nav__link__content">About Us</div>
@@ -132,6 +151,11 @@ export default function Header() {
                 onClick={() => {
                   navigate("/contact");
                   localStorage.setItem("route", "contact");
+                  window.scroll({
+                    top: 0,
+                    left: 0,
+                    behavior: "smooth",
+                  });
                 }}
               />
               <div className="nav__link__content">Contact Us</div>

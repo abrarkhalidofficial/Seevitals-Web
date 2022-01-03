@@ -52,15 +52,42 @@ export default function Footer() {
         <div className="footer__wrapper__col">
           <div className="footer__wrapper__col__heading">Quick Links</div>
           <div className="footer__wrapper__col__content">
-            <Link to="/" className="footer__wrapper__col__content__links">
+            <Link
+              to="/"
+              className="footer__wrapper__col__content__links"
+              onClick={() => {
+                window.scroll({
+                  top: 0,
+                  left: 0,
+                  behavior: "smooth",
+                });
+              }}
+            >
               Home
             </Link>
-            <Link to="/about" className="footer__wrapper__col__content__links">
+            <Link
+              to="/about"
+              className="footer__wrapper__col__content__links"
+              onClick={() => {
+                window.scroll({
+                  top: 0,
+                  left: 0,
+                  behavior: "smooth",
+                });
+              }}
+            >
               About us
             </Link>
             <Link
               to="/contact"
               className="footer__wrapper__col__content__links"
+              onClick={() => {
+                window.scroll({
+                  top: 0,
+                  left: 0,
+                  behavior: "smooth",
+                });
+              }}
             >
               Contact us
             </Link>
