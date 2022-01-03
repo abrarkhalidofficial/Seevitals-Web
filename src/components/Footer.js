@@ -203,7 +203,7 @@ export default function Footer() {
       </div>
       <div className="footer__extension">
         <div className="footer__extension__wrapper">
-          Copyright 2021 | All Right Reserved Developed by seevitals solutions
+          Copyright 2021 | All Right Reserved | Developed by seevitals solutions
         </div>
       </div>
     </div>

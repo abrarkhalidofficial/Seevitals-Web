@@ -48,25 +48,15 @@ export default function Contact() {
                 className="contact__container__form__content__left__input"
               />
               <input
-                list="contact__select"
-                name="browser"
-                id="browser"
                 type="text"
-                placeholder="Topic"
-                className="contact__container__form__content__left__select"
+                placeholder="Subject"
+                className="contact__container__form__content__left__input"
               />
-              <datalist id="contact__select">
-                <option value="Edge" />
-                <option value="Firefox" />
-                <option value="Chrome" />
-                <option value="Opera" />
-                <option value="Safari" />
-              </datalist>
               <textarea
                 name=""
                 id=""
                 rows="10"
-                placeholder="Subject"
+                placeholder="Description"
                 className="contact__container__form__content__left__textarea"
               />
               <button
