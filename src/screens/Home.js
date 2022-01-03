@@ -41,7 +41,7 @@ import why__choose__us__container__content__card__svg1 from "../assets/why__choo
 import why__choose__us__container__content__card__svg2 from "../assets/why__choose__us__container__content__card__svg2.png";
 import why__choose__us__container__content__card__svg3 from "../assets/why__choose__us__container__content__card__svg3.png";
 
-function ServicesCard({ img, hoverImg, text }) {
+function ServicesCard({ img, hoverImg, text, info }) {
   const [hovered, setHovered] = useState(false);
   return (
     <div
@@ -63,9 +63,7 @@ function ServicesCard({ img, hoverImg, text }) {
         {text}
       </div>
       <div className="new__services__container__content__card__info">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-        itaque minus asperiores atque suscipit rem recusandae officiis eius
-        dignissimos velit quia, alias, harum molestiae consectetur!
+        {info}
       </div>
     </div>
   );
@@ -125,21 +123,25 @@ export default function Home() {
             img={healthSvgInactive}
             hoverImg={healthSvgActive}
             text="Customized Health Tech Solutions"
+            info="You decide and we deliver. From fully customizable hospital dashboards to interfaces skilled and built to your liking, its as easy as picking furniture. We offer solutions to your healthcare environment needs just the way you need them. There are hundreds of existing templates to choose from, but your needs are our priority"
           />
           <ServicesCard
             img={productSvgInactive}
             hoverImg={productSvgActive}
             text="Product Development"
+            info="Breakthrough technology in the art of vital monitoring you have yet to witness. Our products offer first-of-its-kind medical grade accuracy in providing patient care of the highest quality. "
           />
           <ServicesCard
             img={consultationsSvgInactive}
             hoverImg={consultationsSvgActive}
             text="Technical Consultations"
+            info="From our expertise to your clinics. Our team is equipped with experienced individuals in the arts of medicine, healthcare management and software engineering. These combined can offer you the best you can from your pocket, for your hospital."
           />
           <ServicesCard
             img={remoteSvgInactive}
             hoverImg={remoteSvgActive}
             text="Remote Patient Monitoring"
+            info="Your patients are our priority too. Access your patients’ vitals and condition from the ease of your phone, tablet, or computer. Modern solutions to reducing manual labor and strenuous standing hours for your hospital’s manpower."
           />
         </div>
       </div>
@@ -1111,16 +1113,16 @@ export default function Home() {
               <div className="footer__container__overlay__specialist__card">
                 <div className="footer__container__overlay__specialist__card__img__wrapper">
                   <img
-                    src={specilist1}
+                    src={specilist2}
                     alt="footer__container__overlay__specialist__card__img"
                     className="footer__container__overlay__specialist__card__img"
                   />
                 </div>
                 <div className="footer__container__overlay__specialist__card__heading">
-                  Dr. Aimon B. Malik
+                  Dr. Nimra Qureshi
                 </div>
                 <div className="footer__container__overlay__specialist__card__para">
-                  COO | Operations Head | Surgeon
+                  CEO | BDS | MS-HMI | Dentist | Health Policy
                 </div>
                 <div className="footer__container__overlay__specialist__card__socials__container">
                   <a href="">
@@ -1139,7 +1141,7 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/dr-nimraqureshi/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21.16"
@@ -1175,17 +1177,16 @@ export default function Home() {
               <div className="footer__container__overlay__specialist__card">
                 <div className="footer__container__overlay__specialist__card__img__wrapper">
                   <img
-                    src={specilist2}
+                    src={specilist1}
                     alt="footer__container__overlay__specialist__card__img"
                     className="footer__container__overlay__specialist__card__img"
                   />
                 </div>
                 <div className="footer__container__overlay__specialist__card__heading">
-                  Dr. Nimra Qureshi
+                  Dr. Aimon Malik
                 </div>
                 <div className="footer__container__overlay__specialist__card__para">
-                  CEO | Entrepreneur | Dentist | Community Engager | Health-tech
-                  Enthusiast
+                  COO | MBBS | MS-HMI | Doctor | Healthcare Operations
                 </div>
                 <div className="footer__container__overlay__specialist__card__socials__container">
                   <a href="">
@@ -1204,7 +1205,7 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/draimonmalik">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21.16"
@@ -1237,6 +1238,7 @@ export default function Home() {
                   </a>
                 </div>
               </div>
+
               <div className="footer__container__overlay__specialist__card">
                 <div className="footer__container__overlay__specialist__card__img__wrapper">
                   <img
@@ -1249,7 +1251,7 @@ export default function Home() {
                   Muhammad Dayyan
                 </div>
                 <div className="footer__container__overlay__specialist__card__para">
-                  CTO | Co-Founder | Technology Consultant | Product Manager
+                  CTO | CS | MS-TME | Founder & CEO DSME Global
                 </div>
                 <div className="footer__container__overlay__specialist__card__socials__container">
                   <a href="">
@@ -1268,7 +1270,7 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/dayyanshahid/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21.16"

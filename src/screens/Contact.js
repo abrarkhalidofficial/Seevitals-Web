@@ -76,7 +76,7 @@ export default function Contact() {
                   Email
                 </div>
                 <div className="contact__container__form__content__right__entry">
-                  email@example.com
+                  info@seevitals.com
                 </div>
               </div>
               <div className="contact__container__form__content__right__data">
@@ -84,10 +84,10 @@ export default function Contact() {
                   Visit us
                 </div>
                 <div className="contact__container__form__content__right__entry">
-                  Canal Road
+                  33-Z, 1st Floor Commercial Plaza, DHA Phase III
                 </div>
                 <div className="contact__container__form__content__right__entry">
-                  Faisalabad Pakistan
+                  Lahore, Punjab, Pakistan
                 </div>
               </div>
               <div className="contact__container__form__content__right__data">
@@ -95,10 +95,10 @@ export default function Contact() {
                   Phone
                 </div>
                 <div className="contact__container__form__content__right__entry">
-                  +92-345-1234567
+                  +92-345-1591251
                 </div>
                 <div className="contact__container__form__content__right__entry">
-                  +92-345-1234567
+                  +92-321-9652222
                 </div>
               </div>
               <div className="contact__container__form__content__right__links">
