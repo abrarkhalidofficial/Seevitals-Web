@@ -339,6 +339,7 @@
   height: fit-content;
   min-height: 600px;
   position: relative;
+  overflow: hidden;
 }
 .parameter__container__bg {
   width: 100%;
@@ -626,9 +627,7 @@
     min-width: 100%;
     margin-bottom: 4em;
   }
-  .welcome__container__content__img {
-    display: none;
-  }
+
   .parameter__container__bg {
     width: 150%;
   }

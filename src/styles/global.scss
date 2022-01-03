@@ -418,10 +418,19 @@ body {
 }
 @media (max-width: 650px) {
   .footer__container__overlay__specialist {
-    margin-top: 25em;
+    margin-top: 10em;
   }
 
   .footer__container {
-    height: 1500px;
+    height: 1200px;
+  }
+}
+@media (max-width: 450px) {
+  .footer__container__overlay__specialist {
+    margin-top: 21em;
+  }
+
+  .footer__container {
+    height: 1400px;
   }
 }
