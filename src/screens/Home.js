@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import main__background__img from "../assets/main__background__img.png";
 import main__illustration from "../assets/main__illustration.png";
 import productSvgInactive from "../assets/productSvgInactive.svg";
@@ -40,58 +40,8 @@ import easeActive from "../assets/outcomesSectionSvg/easeActive.svg";
 import why__choose__us__container__content__card__svg1 from "../assets/why__choose__us__container__content__card__svg1.png";
 import why__choose__us__container__content__card__svg2 from "../assets/why__choose__us__container__content__card__svg2.png";
 import why__choose__us__container__content__card__svg3 from "../assets/why__choose__us__container__content__card__svg3.png";
-
-function ServicesCard({ img, hoverImg, text, info }) {
-  const [hovered, setHovered] = useState(false);
-  return (
-    <div
-      className="new__services__container__content__card"
-      onMouseOver={() => {
-        setHovered(true);
-      }}
-      onMouseOut={() => {
-        setHovered(false);
-      }}
-    >
-      <img
-        src={hovered ? hoverImg : img}
-        alt="services img"
-        className="new__services__container__content__card__img"
-      />
-
-      <div className="new__services__container__content__card__content">
-        {text}
-      </div>
-      <div className="new__services__container__content__card__info">
-        {info}
-      </div>
-    </div>
-  );
-}
-function AddonsCard({ img, hoverImg, text }) {
-  const [hovered, setHovered] = useState(false);
-  return (
-    <div
-      className="new__addons__container__content__card"
-      onMouseOver={() => {
-        setHovered(true);
-      }}
-      onMouseOut={() => {
-        setHovered(false);
-      }}
-    >
-      <img
-        src={hovered ? hoverImg : img}
-        alt="addons img"
-        className="new__addons__container__content__card__img"
-      />
-
-      <div className="new__addons__container__content__card__content">
-        {text}
-      </div>
-    </div>
-  );
-}
+import ServicesCard from "../components/ServicesCard";
+import AddonsCard from "../components/AddonsCard";
 
 export default function Home() {
   return (
@@ -109,7 +59,7 @@ export default function Home() {
             className="main__illustration"
           />
           <div className="main__container__jumbotron__overlay__heading">
-            Technology in <span>Healthcare</span>
+            Leading <span>Health</span> Tech Innovation
           </div>
           <div className="main__container__jumbotron__overlay__para">
             Like You've Never Seen

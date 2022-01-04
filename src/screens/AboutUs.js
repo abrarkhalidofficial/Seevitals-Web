@@ -4,6 +4,7 @@ import about__illustration from "../assets/about__illustration.png";
 import OurStoryBg from "../assets/OurStoryBg.png";
 import VisionBg from "../assets/VisionBg.png";
 import visionPic from "../assets/visionPic.png";
+
 export default function AboutUs() {
   return (
     <>
@@ -20,8 +21,7 @@ export default function AboutUs() {
             className="about__illustration"
           />
           <div className="about__us__container__jumbotron__overlay__heading">
-            Leading Health Tech Innovation <span>Technology </span>in
-            <span> Healthcare</span>
+            Leading <span>Health</span> Tech Innovation
           </div>
           {/* <div className="about__us__container__jumbotron__overlay__para">
             Like You've Never Seen
