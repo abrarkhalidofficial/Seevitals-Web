@@ -3,7 +3,7 @@ import main__background__img from "../assets/main__background__img.png";
 import about__illustration from "../assets/about__illustration.png";
 import OurStoryBg from "../assets/OurStoryBg.png";
 import VisionBg from "../assets/VisionBg.png";
-import visionPic from "../assets/visionPic.png";
+import visionPic from "../assets/visionPic.svg";
 
 export default function AboutUs() {
   return (
