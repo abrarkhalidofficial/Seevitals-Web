@@ -48,7 +48,7 @@
   font-weight: bold;
   margin-bottom: 2em;
   position: relative;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 .new__services__container__heading::after {
   content: "";
@@ -104,6 +104,13 @@
   z-index: 50;
   text-align: justify;
   font-size: 12px;
+  flex-direction: column;
+}
+.new__services__container__content__card__info__heading {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4px;
+  text-align: center;
 }
 .new__services__container__content__card:hover {
   transition: 300ms ease-in-out;
@@ -468,7 +475,6 @@
 .why__choose__us__container__content__card__para {
   font-size: 15px;
   color: $darkText;
-  text-transform: capitalize;
   text-align: justify;
 }
 .why__choose__us__container__content__wrapper {
@@ -667,6 +673,10 @@
   }
 }
 @media (max-width: 500px) {
+  .welcome__container__content__gradiant__content__heading {
+    text-align: center;
+    font-size: 22px;
+  }
   .parameters__container__content__entry {
     margin-top: 2em;
     width: 50px;

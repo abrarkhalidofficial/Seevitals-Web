@@ -62,7 +62,7 @@
 }
 .our__story__container__overlay__wrapper {
   width: 65%;
-  background: $gradientBlack;
+  background: linear-gradient(270deg, #707070, #1c1c1c);
   height: fit-content;
   min-height: 400px;
   border-radius: 0px 0px 50px 0px;
@@ -128,8 +128,8 @@
   margin: 4em 0em;
 }
 .our__vision__container__overlay__container__content__img__card {
-  width: 300px;
-  height: 300px;
+  width: 330px;
+  height: 280px;
   border-radius: 20px;
   justify-content: center;
   display: flex;
@@ -146,7 +146,8 @@
 }
 .our__vision__container__overlay__container__content__img {
   width: 100%;
-  border-radius: 35px;
+  height: 100%;
+  border-radius: 30px;
 }
 .our__vision__container__overlay__container__content__text__container__content {
   display: flex;

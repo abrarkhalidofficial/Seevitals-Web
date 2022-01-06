@@ -73,25 +73,29 @@ export default function Home() {
             img={healthSvgInactive}
             hoverImg={healthSvgActive}
             text="Customized Health Tech Solutions"
-            info="You decide we deliver. From fully customizable hospital dashboards to interfaces skilled and built to your liking, its as easy as picking furniture. We offer solutions to your healthcare environment needs just the way you need them. There are hundreds of existing templates to choose from, but your needs are our priority"
+            infoHeading="You decide we deliver"
+            info="From fully customizable hospital dashboards to interfaces skilled and built to your liking, its as easy as picking furniture. We offer solutions to your healthcare environment needs just the way you need them. There are hundreds of existing templates to choose from, but your needs are our priority"
           />
           <ServicesCard
             img={productSvgInactive}
             hoverImg={productSvgActive}
             text="Product Development"
+            infoHeading="Breakthrough technology"
             info="Breakthrough technology in the art of vital monitoring you have yet to witness. Our products offer first-of-its-kind medical grade accuracy in providing patient care of the highest quality. "
           />
           <ServicesCard
             img={consultationsSvgInactive}
             hoverImg={consultationsSvgActive}
             text="Technical Consultations"
-            info="From our expertise to your clinics. Our team is equipped with experienced individuals in the arts of medicine, healthcare management and software engineering. These combined can offer you the best you can from your pocket, for your hospital."
+            infoHeading="From our expertise to your clinics"
+            info="Our team is equipped with experienced individuals in the arts of medicine, healthcare management and software engineering. These combined can offer you the best you can from your pocket, for your hospital."
           />
           <ServicesCard
             img={remoteSvgInactive}
             hoverImg={remoteSvgActive}
             text="Remote Patient Monitoring"
-            info="Your patients are our priority too. Access your patients’ vitals and condition from the ease of your phone, tablet, or computer. Modern solutions to reducing manual labor and strenuous standing hours for your hospital’s manpower."
+            infoHeading="Your patients are our priority too"
+            info="Access your patients’ vitals and condition from the ease of your phone, tablet, or computer. Modern solutions to reducing manual labor and strenuous standing hours for your hospital’s manpower."
           />
         </div>
       </div>
@@ -133,7 +137,7 @@ export default function Home() {
           <div className="welcome__container__content__gradiant">
             <div className="welcome__container__content__gradiant__content">
               <div className="welcome__container__content__gradiant__content__heading">
-                Welcome To SEEVITALS
+                Welcome To SeeVitals
               </div>
               <div className="welcome__container__content__gradiant__content__sub__heading">
                 Contactless Remote Patient Monitoring With An Early Warning
@@ -150,7 +154,7 @@ export default function Home() {
               Improve Patient Outcomes
             </div>
             <div className="outcomes__container__content__para">
-              In Your Hospital With SEEVITALS Early Warning System
+              In Your Hospital With SeeVitals Early Warning System
             </div>
           </div>
           <div className="outcomes__container__content__cards__container">
@@ -288,7 +292,7 @@ export default function Home() {
         <div className="parameters__container__content">
           <div className="parameters__container__content__headings__container">
             <div className="parameters__container__content__headings">
-              Parameters Monitored By SEEVITALS
+              Parameters Monitored By SeeVitals
             </div>
             <div className="parameters__container__content__para">
               Contactless Heart Rate, Respiration Rate & Sleep Monitor
@@ -963,7 +967,7 @@ export default function Home() {
                 <div className="why__choose__us__container__content__card__para">
                   There is comfort in knowing your or your loved one’s health is
                   being monitored continuously to mitigate risk and reduce
-                  collateral damage. SEEVITALS recognizes your priorities and
+                  collateral damage. SeeVitals recognizes your priorities and
                   puts you first. Your data is safe with us and can be accessed
                   by you wherever and whenever.
                 </div>
@@ -1074,7 +1078,14 @@ export default function Home() {
                   Chief Operating Officer
                 </div>
                 <div className="footer__container__overlay__specialist__card__socials__container">
-                  <a href="https://www.facebook.com/aimonmalik">
+                  <a
+                    onClick={() =>
+                      window.open(
+                        "https://www.facebook.com/aimonmalik",
+                        "_blank"
+                      )
+                    }
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13.636"
@@ -1090,7 +1101,14 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="https://www.linkedin.com/in/draimonmalik/">
+                  <a
+                    onClick={() =>
+                      window.open(
+                        "https://www.linkedin.com/in/draimonmalik/",
+                        "_blank"
+                      )
+                    }
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21.16"
@@ -1106,7 +1124,14 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="https://www.instagram.com/wakhrastagram/">
+                  <a
+                    onClick={() =>
+                      window.open(
+                        "https://www.instagram.com/wakhrastagram/",
+                        "_blank"
+                      )
+                    }
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24.183"
@@ -1138,7 +1163,14 @@ export default function Home() {
                   Chief Executive Officer
                 </div>
                 <div className="footer__container__overlay__specialist__card__socials__container">
-                  <a href="https://www.facebook.com/CuriousniQ">
+                  <a
+                    onClick={() =>
+                      window.open(
+                        "https://www.facebook.com/CuriousniQ",
+                        "_blank"
+                      )
+                    }
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13.636"
@@ -1154,7 +1186,14 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="https://www.linkedin.com/in/dr-nimraqureshi/">
+                  <a
+                    onClick={() =>
+                      window.open(
+                        "https://www.linkedin.com/in/dr-nimraqureshi/",
+                        "_blank"
+                      )
+                    }
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21.16"
@@ -1170,7 +1209,14 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="https://www.instagram.com/nowhykyun/">
+                  <a
+                    onClick={() =>
+                      window.open(
+                        "https://www.instagram.com/nowhykyun/",
+                        "_blank"
+                      )
+                    }
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24.183"
@@ -1202,7 +1248,14 @@ export default function Home() {
                   Chief Technology Officer
                 </div>
                 <div className="footer__container__overlay__specialist__card__socials__container">
-                  <a href="https://www.facebook.com/dayyanshahid/">
+                  <a
+                    onClick={() =>
+                      window.open(
+                        "https://www.facebook.com/dayyanshahid/",
+                        "_blank"
+                      )
+                    }
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="13.636"
@@ -1218,7 +1271,14 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="https://www.linkedin.com/in/dayyanshahid/">
+                  <a
+                    onClick={() =>
+                      window.open(
+                        "https://www.linkedin.com/in/dayyanshahid/",
+                        "_blank"
+                      )
+                    }
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21.16"
@@ -1234,7 +1294,14 @@ export default function Home() {
                       />
                     </svg>
                   </a>
-                  <a href="https://www.instagram.com/dayyanshahid/">
+                  <a
+                    onClick={() =>
+                      window.open(
+                        "https://www.instagram.com/dayyanshahid/",
+                        "_blank"
+                      )
+                    }
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24.183"

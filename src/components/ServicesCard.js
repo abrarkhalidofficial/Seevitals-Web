@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 
-export default function ServicesCard({ img, hoverImg, text, info }) {
+export default function ServicesCard({
+  img,
+  hoverImg,
+  text,
+  info,
+  infoHeading,
+}) {
   const [hovered, setHovered] = useState(false);
   return (
     <div
@@ -22,6 +28,9 @@ export default function ServicesCard({ img, hoverImg, text, info }) {
         {text}
       </div>
       <div className="new__services__container__content__card__info">
+        <div className="new__services__container__content__card__info__heading">
+          {infoHeading}
+        </div>
         {info}
       </div>
     </div>

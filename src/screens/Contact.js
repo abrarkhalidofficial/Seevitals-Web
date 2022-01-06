@@ -15,7 +15,7 @@ export default function Contact() {
             Let's talk <span>to us</span>
           </div>
           <div className="contact__container__jumbotron__content__sub__heading">
-            Feel free for contact
+            Feel free to contact us
           </div>
         </div>
       </div>
@@ -72,10 +72,10 @@ export default function Contact() {
                   Email
                 </div>
                 <a
-                  href="mailto:info@seevitals.com"
+                  href="mailto:info@SeeVitals.com"
                   className="contact__container__form__content__right__entry"
                 >
-                  info@seevitals.com
+                  info@SeeVitals.com
                 </a>
               </div>
               <div className="contact__container__form__content__right__data">
@@ -114,7 +114,12 @@ export default function Contact() {
               </div>
               <div className="contact__container__form__content__right__links">
                 <a
-                  href="https://www.facebook.com/Seevitals-109009611658345/"
+                  onClick={() =>
+                    window.open(
+                      "https://www.facebook.com/SeeVitals-109009611658345/",
+                      "_blank"
+                    )
+                  }
                   className="contact__container__form__content__right__links__link"
                 >
                   <svg
@@ -133,7 +138,12 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/SEEVITALS"
+                  onClick={() =>
+                    window.open(
+                      "https://www.linkedin.com/company/SeeVitals",
+                      "_blank"
+                    )
+                  }
                   className="contact__container__form__content__right__links__link"
                 >
                   <svg
@@ -152,7 +162,12 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a
-                  href="https://www.instagram.com/see_vitals/"
+                  onClick={() =>
+                    window.open(
+                      "https://www.instagram.com/see_vitals/",
+                      "_blank"
+                    )
+                  }
                   className="contact__container__form__content__right__links__link"
                 >
                   <svg
