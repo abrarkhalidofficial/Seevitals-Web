@@ -61,9 +61,6 @@ export default function Home() {
           <div className="main__container__jumbotron__overlay__heading">
             Leading <span>Health</span> Tech Innovation
           </div>
-          <div className="main__container__jumbotron__overlay__para">
-            Like You've Never Seen
-          </div>
         </div>
       </div>
       <div className="new__services__container">
