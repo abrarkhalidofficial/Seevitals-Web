@@ -4,6 +4,11 @@ import about__illustration from "../assets/about__illustration.png";
 import OurStoryBg from "../assets/OurStoryBg.png";
 import VisionBg from "../assets/VisionBg.png";
 import visionPic from "../assets/visionPic.svg";
+import ourStroy from "../assets/ourStroy.svg";
+import gallary1 from "../assets/gallary1.jpg";
+import gallary2 from "../assets/gallary2.jpg";
+import gallary3 from "../assets/gallary3.jpg";
+import gallary4 from "../assets/gallary4.jpg";
 
 export default function AboutUs() {
   return (
@@ -64,9 +69,7 @@ export default function AboutUs() {
                 throughput time.
               </div>
             </div>
-          </div>
-          <div className="our__story__container__overlay__heading">
-            Our Story
+            <img src={ourStroy} alt="visionPic" />
           </div>
         </div>
       </div>
@@ -378,6 +381,101 @@ export default function AboutUs() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="gallary__container">
+        <img
+          src={OurStoryBg}
+          alt="OurStoryBg"
+          className="gallary__container__img"
+        />
+        <div className="gallary__container__content">
+          <div className="gallary__container__content__wrapper">
+            <div
+              className="why__choose__us__container__content__heading"
+              style={{ color: "#4AB493" }}
+            >
+              Our Vision
+            </div>
+            <div className="why__choose__us__container__content__border">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="100"
+                height="11"
+                viewBox="0 0 100 11"
+              >
+                <defs>
+                  <linearGradient
+                    id="linear-gradient"
+                    x1="0.5"
+                    x2="0.5"
+                    y2="1"
+                    gradientUnits="objectBoundingBox"
+                  >
+                    <stop offset="0" stop-color="#0d645d" />
+                    <stop offset="1" stop-color="#4ab493" />
+                  </linearGradient>
+                </defs>
+                <g
+                  id="Group_35"
+                  data-name="Group 35"
+                  transform="translate(-921 -4991)"
+                >
+                  <line
+                    id="Line_2"
+                    data-name="Line 2"
+                    x2="31"
+                    transform="translate(987.5 4996.5)"
+                    fill="none"
+                    stroke="#1a1717"
+                    stroke-linecap="round"
+                    stroke-width="5"
+                  />
+                  <line
+                    id="Line_3"
+                    data-name="Line 3"
+                    x2="30.46"
+                    transform="translate(923.5 4996.5)"
+                    fill="none"
+                    stroke="#1a1717"
+                    stroke-linecap="round"
+                    stroke-width="5"
+                  />
+                  <circle
+                    id="Ellipse_2"
+                    data-name="Ellipse 2"
+                    cx="5.5"
+                    cy="5.5"
+                    r="5.5"
+                    transform="translate(965 4991)"
+                    fill="url(#linear-gradient)"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div className="gallary__container__content__wrapper__content">
+              <img
+                src={gallary1}
+                alt="gallary1"
+                className="gallary__container__content__wrapper__content__img"
+              />
+              <img
+                src={gallary2}
+                alt="gallary2"
+                className="gallary__container__content__wrapper__content__img"
+              />
+              <img
+                src={gallary3}
+                alt="gallary3"
+                className="gallary__container__content__wrapper__content__img"
+              />
+              <img
+                src={gallary4}
+                alt="gallary4"
+                className="gallary__container__content__wrapper__content__img"
+              />
             </div>
           </div>
         </div>
